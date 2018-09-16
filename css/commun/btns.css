@@ -1,0 +1,19 @@
+/* Div principal des btns */
+#btns    {display:block;position:relative;width:99%;margin:0 auto 0.125em;border:0.125em solid #EDEDED;background-color:#C9C9C9;border-radius:0.625em;}
+#btns p, .Entetebtn {display:block;width:100%;text-align:center!important;border-spacing:0px;padding:0}
+body[class="paysage"]  .Entetebtn, 
+body[class="paysage"]  #btns p {height:1.5em;font-size:1em;}
+@media screen and (max-width: 640px) 
+{
+	body[class="paysage"]  .Entetebtn, 
+  body[class="paysage"] #btns p{height:1.5em;font-size:0.4em;}
+}
+body[class="portrait"] .Entetebtn, 
+body[class="portrait"]  #btns p{height:1.5em;font-size:0.4em;}
+
+body[class="paysage"]  .Containerbtn{position:relative; width:6.25%;margin:0 auto; float:left;}
+body[class="portrait"] .Containerbtn{position:relative; width:12.5%;margin:0 auto; float:left;}
+
+.Imagebtn{display:block;margin:auto;border-spacing:0;padding:0;text-align:center;}
+body[class="paysage"]  .Imagebtn{width:60%;}
+body[class="portrait"] .Imagebtn{width:80%;}

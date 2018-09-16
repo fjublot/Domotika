@@ -1,0 +1,57 @@
+#scrollstart
+{
+	float:					left;
+	position:				absolute;
+	z-index:				10;
+	width :					1em;
+	height:					2em;
+	border-width :				0.1em;
+	border-right-width :	0em;
+	border-style :				solid;
+	border-color :				red;
+	border-collapse :			collapse;
+	margin :				0em;
+	padding :				0em;
+	background-color :			#D8D8D8;
+	display:				inline;
+	cursor :				pointer;
+}
+
+#scrollstop
+{
+	float:					left;
+	position:				absolute;
+	z-index:				10;
+	width :					1em;
+	height:					2em;
+	border-width :				0.1em;
+	border-left-width :			0em;
+	border-style :				solid;
+	border-color :				red;
+	border-collapse :			collapse;
+	margin :				0em;
+	padding :				0em;
+	background-color :			#D8D8D8;
+	display:				inline;
+}
+
+#barre
+{
+	float:					left;
+	width :					80%;
+	height:					1em;
+	margin :				0em;
+	padding :				0em;
+	border-width :			0.1em;
+	border-style :			solid;
+	border-collapse :		collapse;
+	background-color :		#D8D8D8;
+	margin-left :                   10%;
+}
+
+#refresh
+{
+	width: 				1.2em;
+	height:				1.2em;
+	cursor :			pointer;
+}

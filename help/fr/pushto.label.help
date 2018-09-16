@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Compte pushto</titre>
+    <message>PushMeTo : Compte utilisé pour diffuser des messages via le site http://pushme.to.&lt;br&gt;
+NotifyMyAndroid : Inutile, sert uniquement pour trier.&lt;br&gt;
+Notrifry : Inutile, sert uniquement pour trier.&lt;br&gt;
+Livenotifier : Inutile, sert uniquement pour trier.&lt;br&gt;
+Notifo : Compte qui sera notifié.&lt;br&gt;
+Mail : Adresse email de notification.&lt;br&gt;
+Nabaztag : Serial Number.&lt;br&gt;
+Sms Orange : Numéro de mobile destinataire (336....).&lt;br&gt;
+Sms Ovh : Utilisateur Sms Ovh.&lt;br&gt;
+Windowsphone Push : Inutile, sert uniquement pour trier.&lt;br&gt;
+Prowl : Compte qui sera notifié.&lt;br&gt;
+</message>
+</help>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Login</titre>
+    <message>Login de connexion pour ce profil. Votre nom d'utilisateur doit comporter entre 4 et 20 caractères. Le nom d'utilisateur admin est interdit.</message>
+</help>

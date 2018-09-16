@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Option supplémentaire du graphique</titre>
+    <message>
+    Par exemple :&lt;br&gt;
+    backgroundColor: '#00FF00',&lt;br&gt;
+    zoomType: 'x'&lt;p&gt;
+    Plus de détail sur le site en fonction du mode :&lt;br&gt;
+    &lt;a target=new href=http://api.highcharts.com/highcharts#chart&gt;Graphique&lt;/a&gt;&lt;br&gt;
+    &lt;a target=new href=http://api.highcharts.com/highstock#chart&gt;Graphique Zoom&lt;/a&gt;
+</message>
+</help>

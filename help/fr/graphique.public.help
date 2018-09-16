@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Public</titre>
+    <message>Permet de définir qu'un graphique est public. Ca permet de l'inclure simplement
+dans vos pages PHP comme suit :
+$_REQUEST['numero'] = 1;&lt;br&gt;
+$GLOBALS['include_only'] = 1;&lt;br&gt;
+$GLOBALS['root_path'] = './multicardipx800/';&lt;br&gt;
+$_SESSION['lang'] = 'fr';&lt;br&gt;
+require('./multicardipx800/ViewGraphique.php');</message>
+</help>

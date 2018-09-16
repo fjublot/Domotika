@@ -1,0 +1,5 @@
+/* ArrayLisr */
+body.paysage  .arrayviewlist ul                 {overflow: auto; list-style-type: none;}  
+body.paysage  .arrayviewlist ul li              {position:relative; width:12.5%;margin:0 auto; float:left;  border: 1px solid #aaa;}
+body.paysage  .arrayviewlist ul li img.icon     { margin: 10px;   border: 5px solid #fff;    -webkit-transition: box-shadow 0.5s ease; -moz-transition: box-shadow 0.5s ease; -transition: box-shadow 0.5s ease; -ms-transition: box-shadow 0.5s ease;transition: box-shadow 0.5s ease;}
+body.portrait .arrayviewlist ul li span.caption {text-align:center !important;height:1.5em;font-size:1em;vertical-align:middle;position:relative;}

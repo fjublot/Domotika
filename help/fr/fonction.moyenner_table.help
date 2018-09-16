@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>moyenner_table</titre>
+    <prototype>moyenner_table($table, $debut, $fin, $numero)</prototype>
+    <message>Purge les valeurs d'une des tables (an, btn, relai, cnt, variable) durant une plage horraire et sauvegarde la moyenne.</message>
+    <desc_table>Nom de la table (an, btn, relai, cnt, variable)</desc_table>
+    <desc_debut>timestamp de debut de moyenne</desc_debut>
+    <desc_fin>timestamp de fin de moyenne</desc_fin>
+    <desc_numero>Numero de relai, btn, ... (facultatif)</desc_numero>
+</help>

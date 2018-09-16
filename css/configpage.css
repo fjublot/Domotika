@@ -1,0 +1,85 @@
+.Containers {
+	width: 100%;
+	border: 1px solid black;
+
+  min-height: 245px;
+	/*color: #FF7270;*/
+	text-align: left;
+	margin-top: 5px;
+	/*margin-left: 5px;
+	margin-right: 30px;*/
+	display: inline-block;
+	vertical-align: top;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+  
+}
+.Accordeon {
+color:lightgrey;
+font-size:0.5em;
+margin-left: 10px;}
+
+	.ContainersName {
+		/*cursor: move;*/
+	  color: white;
+  	padding-bottom: 10px;
+		border-bottom: 1px solid black;
+	  background-color: darkblue;
+  	}
+
+	.ContainersList {
+		margin-top: 10px;
+  	background-color: white;
+    
+	}
+.ContainersList:last-child {
+	margin-right: 0;
+	/*min-height: 80px;*/
+}
+
+.ContainersList img {
+	cursor: move;
+	/*margin: 10px;*/
+	/*border-radius: 100%;*/
+    width:100%;
+}
+
+.js-remove {
+font-size:30px;
+top:-50px;
+cursor:pointer;
+}
+
+.Container, ContainerSep {
+	cursor: move;
+}
+
+.selection .editable {}
+.editable .container {
+		position: relative;
+	}
+
+.editable .Container:hover i.js-remove {
+		-webkit-transition: opacity .2s;
+		transition: opacity .2s;
+		opacity: 1;
+		display: block;
+		color: #c00;
+		top: 0px;
+		right: -5px;
+		position: absolute;
+		font-style: normal;
+}
+
+.editable .Container i.js-remove  {
+	display:none;
+}
+.noteditable  i.js-remove {
+	display:none;
+}
+.editable li:hover i {
+	opacity: 1;
+    cursor: pointer;
+	}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>purge_auto_cnt</titre>
+    <prototype>purge_auto_cnt()</prototype>
+    <message>Purge les données de compteur de façon régulière et intelligemment.</message>
+</help>

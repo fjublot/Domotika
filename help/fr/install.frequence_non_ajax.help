@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Fréquence non Ajax</titre>
+    <message>Fréquence de rafraichissement de l'écran en mode non ajax. Valeur recommandé 5. Cette donnée est exprimé en secondes.</message>
+</help>

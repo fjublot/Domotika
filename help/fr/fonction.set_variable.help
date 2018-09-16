@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>set_variable</titre>
+    <prototype>set_variable($numero, $value)</prototype>
+    <message>Positionne la variable a la valeur.</message>
+    <desc_numero>Numero de la variable</desc_numero>
+    <desc_value>Valeur souhaité.</desc_value>
+</help>

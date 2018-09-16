@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Carte IPX800</titre>
+    <message>L'application permet de piloter plusieurs cartes IPX dans toutes les versions existantes à ce jour (V1, V2,V3). Les cartes à piloter peuvent être locale (même réseau) pour le serveur web ou distante et accessible par internet. Pour paramétrer une carte,  choisissez l'option Gestion des cartes dans le menu de paramétrage. Il faut commencer par créer une carte en cliquant sur Ajouter carte...</message>
+</help>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>get_variable_id</titre>
+    <prototype>get_variable_id($label)</prototype>
+    <message>Fonction permettant de retourner le numéro d'une variable à partir de son nom.</message>
+    <desc_label>Url de la page a retourner</desc_label>
+</help>

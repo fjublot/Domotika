@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>GetEvent</titre>
+    <prototype>GetEvent($type, $url, $compte, $passwd, $filtre, $time)</prototype>
+    <message>Retourne tous les titres d'évènements d'un agenda qui correspondent au filtre (google : event de la journée, caldav : event de la minute).</message>
+    <desc_type>Type d'agenda ("caldav", "google")</desc_type>
+    <desc_url>Url de l'agenda (format ical)</desc_url>
+    <desc_compte>Compte permettant l'accès à celui-ci</desc_compte>
+    <desc_passwd>Mot de passe</desc_passwd>
+    <desc_filtre>Expression régulière de filtrage (facultatif)</desc_filtre>
+    <desc_>Horraire des evènements (facultatif)</desc_>
+</help>

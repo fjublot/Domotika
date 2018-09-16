@@ -1,0 +1,513 @@
+@compte {fr: "Compte";}
+@password { fr:  "Mot de passe"; }
+@install_done { fr:  "Installation automatique"; }
+@compte_deja_actif { fr:  "Votre compte utilisateur a déjà  été activé"; }
+@compte_active { fr:  "Votre compte utilisateur a correctement été activé"; }
+@erreur_activation_compte { fr:  "Une erreur est survenue lors de l'activation de votre compte utilisateur"; }
+@install { fr:  "Installer"; }
+@no_writing_dir { fr:  "Le dossier %1 n'est pas accessible en écriture"; }
+@continue { fr:  "Continuer"; }
+@info_support { fr:  "Information d'aide au support"; }
+@account_server { fr:  "Votre serveur tourne avec le compte \"%1\""; }
+@pres-requisite { fr:  "Prés-requis validés"; }
+@disable_allow_url_fopen { fr:  "Les accès aux url distantes est désactivé (%1 du fichier ini)"; }
+@necessary_extension { fr:  "L'extension \"%1\" est nécessaire"; }
+@necessary_min_version_php { fr:  "La version minimum de php nécessaire est la %1"; }
+@actual_version { fr:  "Votre version actuelle est la %1"; }
+@no_writing_file { fr:  "Le fichier %1 n'est pas accessible en écriture"; }
+@debug { fr:  "Debug"; }
+@enable_mysql_xml { fr:  "Activer mysql Xml"; }
+@mysql_base { fr:  "Base Mysql"; }
+@mysql_password { fr:  "Mot de passe Mysql"; }
+@mysql_account { fr:  "Compte Mysql"; }
+@mysql_port { fr:  "Port Mysql"; }
+@mysql_host { fr:  "Host Mysql"; }
+@enable_mysql { fr:  "Activer mysql"; }
+@time_zone { fr:  "Time zone"; }
+@cookies_time_life { fr:  "Durée de vie des cookies"; }
+@frequence_refresh { fr:  "Frequence de rafraichissement"; }
+@frequence_refresh_non_ajax { fr:  "Frequence de rafraichissement sans ajax"; }
+@admin_name { fr:  "Nom de l'admin"; }
+@send_mail_to_dev { fr:  "Communiquer l'adresse email Admin aux développeurs"; }
+@admin_email { fr:  "Email Admin"; }
+@application_name { fr:  "Nom de l'application"; }
+@create_account_to_continue { fr:  "Pour continuer à  utiliser l'application, merci de créer un compte"; }
+@install_done { fr:  "Installation terminée"; }
+@must_planif_commande { fr:  "Vous devez planifier l'exécution d'une des commandes suivantes toutes les minutes"; }
+@config_update { fr:  "Mise à  jour du fichier de conf"; }
+@install_config { fr:  "Installation du fichier de configuration"; }
+@update_database { fr:  "Mise à  jour de la base de données"; }
+@highstock_install { fr:  "Highstock doit être installer dans %1 (uniquement le contenu du dossier js)"; }
+@highcharts_install { fr:  "Highcharts doit être installer dans %1 (uniquement le contenu du dossier js)"; }
+@download_highcharts { fr:  "Télécharger Highcharts/Highstock"; }
+@download { fr:  "Télécharger %1"; }
+@download_ok { fr:  "Téléchargement de %1 terminé"; }
+@download_error { fr:  "Téléchargement de %1 en echec"; }
+@create_file_impossible { fr:  "Impossible de créer le fichier %1"; }
+@inable_to_use_because { fr:  "Usage de %1 impossible (La bib %2 est indisponible)"; }
+@impossible_to_connect_to_db { fr:  "Impossible de se connecter à  la base (%1)"; }
+@admin_email_incorrect { fr:  "Mail admin incorrect"; }
+@frequence_refresh_incorrect { fr:  "Frequence de rafraichissement incorrect"; }
+@frequence_refresh_non_ajax_incorrect { fr:  "Frequence de rafraichissement non ajax incorrect"; }
+@cookies_time_life_incorrect { fr:  "Durée de vie du cookie incorrect"; }
+@mysql_host_incorrect { fr:  "Host Mysql incorrect"; }
+@mysql_port_incorrect { fr:  "Port Mysql incorrect"; }
+@inable_to_use_lib_for { fr:  "Impossible d'utiliser la librairie pour %1"; }
+@finish { fr:  "Terminer"; }
+@do_gift { fr:  "Effectuer un don"; }
+@install_version { fr:  "Installation de la version %1.%2"; }
+@update_version { fr:  "Mise à  jour de la version %1.%2 vers la version %3.%4"; }
+@enable_to_delete { fr:  "Suppression impossible"; }
+@operation_cancel { fr:  "Opération annulée"; }
+@no_translation { fr:  "Aucune traduction de %1 en %2"; }
+@acces_to { fr:  "Accès aux %1"; }
+@height_speed_connect { fr:  "Connexion Haut debit"; }
+@low_speed_connect { fr:  "Connexion Bas debit"; }
+@wy_gift { fr:  "Serveur Domotique Multicartes php n'est pas un projet commercial, son utilisation est gratuite et le restera autant que possible. Vous pouvez, si vous le souhaitez, faire un don au projet afin que celui-ci puisse couvrir ses dépenses. L'équipe vous remercie par avance."; }
+@amount { fr:  "Montant"; }
+@relai_on { fr:  "Carte %1 - Allumer relais %2"; }
+@relai_off { fr:  "Carte %1 - Eteindre relais %2"; }
+@relai_imp { fr:  "Carte %1 - Impulsion relais %2"; }
+@relai_all_on { fr:  "Carte %1 - Allumer tous les relais"; }
+@relai_all_off { fr:  "Carte %1 - Eteindre tous les Relais"; }
+@no_rights { fr:  "Vous ne possedez pas les droits"; }
+@read_only { fr:  "Lecture seulement"; }
+@add { fr:  "Ajouter %1 ..."; }
+@connect { fr:  "Connexion"; }
+@stay_connected { fr:  "Rester connecté"; }
+@low_speed { fr:  "Bas débit"; }
+@compte_non_actif { fr:  "Compte non actif"; }
+@good_connexion { fr:  "Identification correcte"; }
+@push_good_connexion { fr:  "%1 (from %2) connecté"; }
+@error_connexion { fr:  "Identifiant ou mot de passe incorrect"; }
+@restrict_acces { fr:  "Accès interdit"; }
+@go_auto_setup { fr:  "L'installation automatique va être lancée"; }
+@necessaire_update { fr:  "Une mise à  jour de l'application est nécessaire. Merci de vous connecter avec un profile Master"; }
+@do_logout { fr:  "Déconnexion en cours"; }
+@logout { fr:  "Déconnexion"; }
+@in_line_help { fr:  "Aide en ligne"; }
+@manage_btn { fr:  "Gestion des boutons"; }
+@manage_user { fr:  "Gestion des utilisateurs"; }
+@manage_carte { fr:  "Gestion des cartes"; }
+@manage_camera { fr:  "Gestion des Webcams"; }
+@manage_scenario { fr:  "Gestion des scenarios"; }
+@manage_cron { fr:  "Gestion des taches planifiées"; }
+@manage_connexionauto { fr:  "Gestion des connexions automatiques"; }
+@manage_pushto { fr:  "Gestion des notifications"; }
+@manage_variable { fr:  "Gestion des variables"; }
+@manage_vartxt { fr:  "Gestion des variables texte"; }
+@manage_graphique { fr:  "Gestion des graphiques"; }
+@manage_trace { fr:  "Traces"; }
+@manage_app { fr:  "Paramètres généraux"; }
+@manage_typecnt { fr:  "Gestion des types de compteurs"; }
+@manage_pages { fr:  "Gestion des pages"; }
+@manage_image { fr:  "Gestion des images"; }
+@management { fr:  "Gestion des %1"; }
+@variable { fr:  "Variable"; }
+@vartxt { fr:  "Variable texte"; }
+@suffixe { fr:  "Texte de fin"; }
+@in_line_support { fr:  "Support en ligne"; }
+@info_support { fr:  "Information d'aide au support"; }
+@param { fr:  "Parametrage (%1)"; }
+@debug_off { fr:  "Debug désactivé"; }
+@debug_on { fr:  "Debug activé"; }
+@connected_from { fr:  "Connecté à  partir de l'ip : %1"; }
+@privilege { fr:  "Privilège"; }
+@current_timezone { fr:  "Timezone : %1"; }
+@current_privilege { fr:  "Privilège : %1"; }
+@timezone { fr:  "Timezone"; }
+@user_info { fr:  "Informations utilisateur"; }
+@welcome { fr:  "Accueil"; }
+@webcam { fr:  "Vidéosurveillance"; }
+@graph { fr:  "Graphiques"; }
+@loading { fr:  "Chargement en cours"; }
+@manage_all { fr:  "Paramétrage de l'application"; }
+@page_trace { fr:  "Traces"; }
+@open_all { fr:  "Ouvrir tout"; }
+@close_all { fr:  "Réduire tout"; }
+@user_hour { fr:  "Heure Utilisateur"; }
+@carte_hour { fr:  "Heure Equipement"; }
+@type { fr:  "Type"; }
+@client_ip { fr:  "IP client"; }
+@text { fr:  "Texte"; }
+@no_line_result { fr:  "Aucune ligne trouvée, rien à  afficher."; }
+@update_on { fr:  "Mise à  jour de %1"; }
+@update_right_on { fr:  "Mise à  jour des droits %1"; }
+@authorized { fr:  "Autorisé"; }
+@denied { fr:  "Refusé"; }
+@changes_recorded { fr:  "Modification enregistrée"; }
+@all { fr:  "Tous"; }
+@none { fr:  "*** Aucun ***"; }
+@cancel { fr:  "Annuler"; }
+@send { fr:  "Envoyer"; }
+@delete { fr:  "Supprimer"; }
+@filter { fr:  "Filtre"; }
+@search { fr:  "Rechercher"; }
+@database_error { fr:  "Impossible d'accéder à  la base %1 (%2)"; }
+@create_table_error { fr:  "Impossible de créer la table %1 (%2)"; }
+@drop_table_error { fr:  "Impossible de supprimer la table %1 (%2)"; }
+@alter_table_error { fr:  "Impossible de mettre a jour la table %1 (%2)"; }
+@cant_find_table { fr:  "Table %1 inexistante (%2)"; }
+@update_class { fr:  "Mise à  jour de la class %1 ..."; }
+@no_right_on { fr:  "Vous ne disposez pas des droits sur la class %1 %2"; }
+@canot_find_class { fr:  "Impossible de trouver la class %"; }
+@select_zone { fr:  "Selectionnez une zone sur l'ecran du dessous."; }
+@good_ip { fr:  "Adresse IP correcte"; }
+@good_ip_range { fr:  "Plage IP correcte"; }
+@bad_ip { fr:  "Adresse IP incorrecte"; }
+@not_defined_ip { fr:  "IP non definie"; }
+@bad_netmask { fr:  "Masque de réseau incorrect"; }
+@good_port { fr:  "Port correct"; }
+@bad_port { fr:  "Port incorrect"; }
+@good_login { fr:  "Nom d'utilisateur correct"; }
+@bad_login { fr:  "Votre nom d'utilisateur doit comporter entre %1 et %2 caracteres"; }
+@admin_login_prohibited { fr:  "Le nom d'utilisateur admin est interdit"; }
+@already_used_login { fr:  "Votre nom d'utilisateur est déjà  utilisé"; }
+@good_password { fr:  "Mot de passe correct"; }
+@bad_password { fr:  "Votre mot de passe doit comporter au moins %1 caractères"; }
+@bad_verif_password { fr:  "Les deux mots de passe ne sont pas identiques"; }
+@good_mail { fr:  "Email correct"; }
+@bad_mail { fr:  "Email incorrect"; }
+@no_control { fr:  "Aucun controle"; }
+@no_compensation { fr:  "Aucune compensation"; }
+@sourceforge_version_error { fr:  "Impossible de se connecter à  sourceforge pour vérifier la dernière version disponible"; }
+@new_version { fr:  "Une nouvelle version est disponible %1.%2"; }
+@can_download_here { fr:  "Vous pouvez la télécharger ici"; }
+@make_help { fr:  "Génération de l'aide en %1"; }
+@scan_version_dev { fr:  "Surveiller si une version de developpement est à  disposition"; }
+@carte { fr:  "Carte"; }
+@an_name { fr:  "Nom de l'entrée analogique"; }
+@compensation { fr:  "Compensation"; }
+@autozoom { fr:  "AutoZoom"; }
+@minimum { fr:  "Minimum"; }
+@maximum { fr:  "Maximum"; }
+@seuil_no_defined { fr:  "Les seuils min et max doivent àªtre définit en mode zoom auto"; }
+@cnt_label { fr:  "Nom du compteur"; }
+@unit { fr:  "Unité"; }
+@unit_numero { fr:  "Nom court"; }
+@value { fr:  "Valeur"; }
+@force_cnt { fr:  "Compteur %1 (%2) forcé à  %3"; }
+@cron_name { fr:  "Nom de la tache plannifié"; }
+@activ_cron { fr:  "Activer la tache"; }
+@minute { fr:  "Minute"; }
+@hour { fr:  "Heure"; }
+@day_of_month { fr:  "Jour du mois"; }
+@month { fr:  "Mois"; }
+@day_of_week { fr:  "Jour de la semaine"; }
+@scenario { fr:  "Scenario"; }
+@connexionauto_name { fr:  "Nom de l'autorisation"; }
+@ip_address { fr:  "Adresse ip"; }
+@login { fr:  "Nom d'utilisateur"; }
+@confirm_password { fr:  "Confirmation du mot de passe"; }
+@email { fr:  "Adresse e-mail"; }
+@push_account { fr:  "Compte de notification"; }
+@notify_connexion { fr:  "Notifier connexion"; }
+@activate_account { fr:  "Activer le compte"; }
+@confirm_password_error { fr:  "Mot de passe de confirmation invalide"; }
+@activate_account_done { fr:  "Compte utilisateur sauvegardé et activé"; }
+@subject_activate_account { fr:  "Activation de votre compte utilisateur"; }
+@to_validate_account { fr:  "Pour valider votre inscription, merci de cliquer sur le lien suivant"; }
+@error_on_activate_mail { fr:  "Une erreur est survenue lors de l'envoi du mail d'activation"; }
+@contact_admin_to_activate { fr:  "Veuillez contacter l'administrateur afin d'activer votre compte"; }
+@account_create { fr:  "Votre compte utilisateur a correctement ete crée"; }
+@mail_send_to_activate { fr:  "Un email vient d'être envoyé afin de l'activer"; }
+@deleted { fr:  "%1 (%2) supprimé"; }
+@modif_done { fr:  "Modification enregistrée"; }
+@create_done { fr:  "Création de %1 effectuée (%2)"; }
+@sensor_exist { fr:  "Le capteur %1 a déjà été créé"; }
+@variable_name { fr:  "Nom de la variable"; }
+@scenario_name { fr:  "Nom du scenario"; }
+@picture { fr:  "Image"; }
+@code { fr:  "Code"; }
+@caracter_prohibited { fr:  "Le caractère \" est interdit dans le code des scenarios"; }
+@bad_code { fr:  "Code incorrect"; }
+@relai_name { fr:  "Nom du relai"; }
+@send_push { fr:  "Envoyer une notification"; }
+@push_on { fr:  "Notifie quand"; }
+@no_driver_cam { fr:  "Le driver de camera est introuvable (%1)"; }
+@ta { fr:  "Ta (Delai On)"; }
+@tb { fr:  "Tb (Delai Off)"; }
+@image { fr:  "Image"; }
+@image_on { fr:  "Image On"; }
+@image_off { fr:  "Image Off"; }
+@message_on { fr:  "Message On"; }
+@message_off { fr:  "Message Off"; }
+@message { fr:  "Message"; }
+@ctrl_carte { fr:  "Ctrl Carte"; }
+@ctrl_btn { fr:  "Ctrl Btn"; }
+@ctrl_message_up { fr:  "Ctrl Message Up"; }
+@ctrl_message_dn { fr:  "Ctrl Message Down"; }
+@activation_scenario { fr:  "Scenario sur activation"; }
+@deactivation_scenario { fr:  "Scenario sur désactivation"; }
+@nom_ipx { fr:  "Nom IPX"; }
+@turn_on { fr:  "Allumer %1 %2 sur carte %3"; }
+@pulse { fr:  "Impulsion %1 %2 sur carte %3"; }
+@turn_all_on { fr:  "Allumer tous les %1 sur carte %2"; }
+@turn_all_off { fr:  "Eteindre tous les %1 sur carte %2"; }
+@turn_off { fr:  "Eteindre %1 %2 sur carte %3"; }
+@btn_name { fr:  "Nom du bouton"; }
+@btn_label { fr:  "Nom de l'entrée"; }
+@btn_image_up { fr:  "Image Up"; }
+@message_up { fr:  "Message Up"; }
+@image_dn { fr:  "Image Down"; }
+@message_dn { fr:  "Message Down"; }
+@press_scenario { fr:  "Scenario sur pression"; }
+@image_up { fr:  "Image Up"; }
+@message_up { fr:  "Message Up"; }
+@image_dn { fr:  "Image Down"; }
+@message_dn { fr:  "Message Down"; }
+@press_scenario { fr:  "Scenario sur pression"; }
+@last { fr:  "Dernière"; }
+@all { fr:  "Toutes"; }
+@log { fr:  "Traces"; }
+@log_off { fr:  "Traces du %1"; }
+@last_log { fr:  "Dernières traces"; }
+@ms { fr:  "Micro-secondes"; }
+@jour { fr:  "Jour"; }
+@maintenance_off { fr:  "Maintenance %1"; }
+@create_off { fr:  "Création %1"; }
+@compensation_loop { fr:  "La valeur ne peut ètre compensé par elle même"; }
+@release_scenario { fr:  "Scenario sur relachement"; }
+@cnt_name { fr:  "Nom du type compteur"; }
+@cnt_formule { fr:  "Formule de calcule"; }
+@cnt_type { fr:  "Type de compteur"; }
+@cnt_afterconv { fr: "soit après conversion"; }
+@cnt_unite { fr:  "Unité d'affichage"; }
+@error_communication { fr:  "Impossible de communiquer avec la carte %1"; }
+@desactivation_carte { fr:  "Carte %1 désactivée"; }
+@do_auto_update { fr:  "Installer la version %1.%2 automatiquement"; }
+@pb_acces_carte { fr:  "Problème d'acces à la carte"; }
+@manage_unite { fr:  "Gestion des unités de mesure"; }
+@active { fr:  "Active"; }
+@actif { fr:  "Actif"; }
+@code_scenario { fr:  "Saisissez le code &agrave; ex&eacute;cuter pour ce scenario."; }
+@scenario_asynchronous { fr:  "Execution en mode asynchrone"; }
+@phppath { fr:  "Chemin de php (exemple /usr/bin/php)"; }
+@manage_lien { fr:  "Gestion des liens"; }
+@all { fr:  "Tout les cas"; }
+@on { fr:  "Activation"; }
+@off { fr:  "Desactivation"; }
+@up { fr:  "Ouverture"; }
+@down { fr:  "Fermeture"; }
+@more_info { fr:  "Plus de paramètres"; }
+@signature { fr:  "Signature"; }
+@activer_push { fr:  "Push actif"; }
+@test_compte { fr:  "Tester le compte"; }
+@carte_name { fr:  "Nom de la carte"; }
+@port { fr:  "Port"; }
+@port_m2m { fr:  "Port M2M"; }
+@carte_autonome { fr:  "Carte autonome pour les push"; }
+@send_config_carte { fr:  "Configurer Push (Attention modifie la configuration de la carte)."; }
+@maj_syno { fr:  "Une mise &agrave; jour est diponible depuis l'interface d'administration de votre synology."; }
+@url { fr:  "Url du site"; }
+@url_incorrect { fr:  "L'Url n'est pas correcte"; }
+@displayname { fr:  "Serveur Multicartes IPX800"; }
+@description { fr:  "Serveur domotique développé en PHP permettant de controler plusieurs cartes IPX800 (Gce.electronics)."; }
+@pb_request_var { fr:  "La variable \$_REQUEST['%1'] doit être specifié."; }
+@active_update_push { fr:  "Mise a jour pour les anciens Firmware : activation (%1)."; }
+@update_push_old { fr:  "Mise a jour pour les anciens Firmware : url (%1)."; }
+@update_status_ok { fr:  "Ok"; }
+@update_status_ko { fr:  "Echec"; }
+@update_push_path_btn { fr:  "Mise a jour du serveur push pour l'entrée %1 (%2)."; }
+@update_push_path_relai { fr:  "Mise a jour du serveur push pour la sortie %1 (%2)."; }
+@update_push_btn { fr:  "Mise a jour du push %1 pour l'entrée %2 (%3)."; }
+@update_push_relai { fr:  "Mise a jour du push %1 pour la sortie %2 (%3)."; }
+@update_relai_ta_tb { fr:  "Mise a jour du relai %1 (%2) en ta et tb (%3)."; }
+@config_push_done { fr:  "Configuration push terminée."; }
+@confirm_push_config { fr:  "Attention vous allez écraser une partie de la configuration de la carte. Cette action dure un certain temps."; }
+@add_fonction { fr:  "Ajouter une fonction"; }
+@hostname { fr:  "Hostname"; }
+@camera_label { fr:  "Nom camera"; }
+@camera_hostname { fr:  "Hostname"; }
+@camera_port { fr:  "Port"; }
+@camera_model { fr:  "Marque/Modèle"; }
+@camera_user { fr:  "Compte (*user*)"; }
+@camera_password { fr:  "Mot de passe (*password*)"; }
+@camera_canal { fr:  "Canal (*canal*)"; }
+@camera_width { fr:  "Largeur (*width*)"; }
+@camera_height { fr:  "Hauteur (*height*)"; }
+@camera_quality { fr:  "Qualité (*quality*)"; }
+@camera_flux { fr:  "Flux"; }
+@camera_image { fr:  "Image"; }
+@camera_autorefresh { fr:  "Image fixe"; }
+@camera_pushscenario { fr:  "Push Scenario"; }
+@camera_timezone { fr:  "Timezone"; }
+@commande { fr:  "Commande"; }
+@background_scenario { fr:  "Execution du scenario %1 en fond de tà¢che"; }
+@connexion_error { fr:  "Erreur d'authentification"; }
+@recup_info { fr:  "Recuperation de %1"; }
+@precision { fr:  "Nombre de chiffre après la virgule"; }
+@development { fr:  "Développement (%1)"; }
+@production { fr:  "Production (%1)"; }
+@etat_open { fr:  "Ouvert"; }
+@etat_close { fr:  "Ferme"; }
+@statena { fr:  "Etat incompréhensible %1"; }
+@downloading { fr:  "Chargement"; }
+@verif-pres-requisite { fr:  "Vérification des pré-requis"; }
+@etat_up { fr:  "Off"; }
+@etat_down { fr:  "On"; }
+@etat_impulsion { fr:  "impulsion"; }
+@ajax_capabilities { fr:  "Prise en charge d@ajax"; }
+@connected_like { fr: "Connecté comme : %1"; }
+@yes { fr: "Oui"; }
+@no { fr: "Non"; }
+@msgpush_up { fr: "Message up (push)"; }
+@msgpush_dn { fr: "Message dn (push)"; }
+@msgpush_on { fr: "Message on (push)"; }
+@msgpush_off { fr: "Message off (push)"; }
+@unable_to_write { fr:  "Impossible de sauvegarder le fichier %1"; }
+@pb_socket { fr:  "La connexion a échoué : %1"; }
+@mois_1 { fr:  "Janvier"; }
+@mois_2 { fr: "Février"; }
+@mois_3 { fr: "Mars"; }
+@mois_4 { fr: "Avril"; }
+@mois_5 { fr: "Mai"; }
+@mois_6 { fr: "Juin"; }
+@mois_7 { fr: "Juillet"; }
+@mois_8 { fr: "Août"; }
+@mois_9 { fr: "Septembre"; }
+@mois_10 { fr: "Octobre"; }
+@mois_11 { fr: "Novembre"; }
+@mois_12 { fr: "Décembre"; }
+@jour_0 { fr: "Dimanche"; }
+@jour_1 { fr: "Lundi"; }
+@jour_2 { fr: "Mardi"; }
+@jour_3 { fr: "Mercredi"; }
+@jour_4 { fr: "Jeudi"; }
+@jour_5 { fr: "Vendredi"; }
+@jour_6 { fr: "Samedi"; }
+@downloadJPEG { fr: "Télécharger une image JPEG"; }
+@downloadPDF { fr: "Télécharger un fichier PDF"; }
+@downloadPNG { fr: "Télécharger une image PNG"; }
+@downloadSVG { fr: "Télécharger une image SVG vecteur"; }
+@exportButtonTitle { fr: "Exporter vers l'image raster ou vecteur"; }
+@loading { fr: "Chargement en cours"; }
+@printButtonTitle { fr: "Imprimer le graphique"; }
+@rangeSelectorFrom { fr: "Depuis"; }
+@rangeSelectorTo { fr: "Jusqu'à"; }
+@rangeSelectorZoom { fr: "Zoom"; }
+@resetZoom { fr: "Zoom par defaut"; }
+@resetZoomTitle { fr: "Zoom"; }
+@graphique_name { fr: "Nom du graphique"; }
+@title { fr: "Titre"; }
+@subtitle { fr: "Sous-titre"; }
+@mode { fr: "Mode"; }
+@public { fr: "Public"; }
+@data { fr: "Donnée"; }
+@decimalPoint { fr: "Séparateur des décimals"; }
+@thousandsSep { fr: "Séparateur des milliers"; }
+@export { fr: "Possibilité d'exporter"; }
+@navigator { fr: "Données pour la navigation"; }
+@chart_option { fr: "Option du graphique"; }
+@colors_option { fr: "Option des couleurs"; }
+@credits_option { fr: "Option des droits d'auteur"; }
+@exporting_option { fr: "Option d'export"; }
+@labels_option { fr: "Option des libellés"; }
+@legend_option { fr: "Option de légende"; }
+@loading_option { fr: "Option de chargement"; }
+@navigation_option { fr: "Option de navigation"; }
+@plotOptions_option { fr: "Option de configuration des types de séries"; }
+@series_option { fr: "Option de configuration des séries"; }
+@subtitle_option { fr: "Option de sous-titre"; }
+@title_option { fr: "Option de titre"; }
+@tooltip_option { fr: "Option d'objet contextuel"; }
+@pane_option { fr: "Option de graphique angulaire/polaire"; }
+@xAxis_option { fr: "Option pour l'axe des X"; }
+@yAxis_option { fr: "Option pour l'axe des Y"; }
+@advance_option { fr: "Option avancées"; }
+@nouveau { fr: "Information sur la mise à jour"; }
+@advance_option_series { fr: "Option avancées de données"; }
+@steep_option { fr: "Par palier"; }
+@create_graph { fr: "Créer le graphique"; }
+@dateformat { fr: "Format de date"; }
+@step_graph_not_compatible { fr: "Le mode palier est incompatible avec les Graphique Zoom"; }
+@capture_history { fr: "Historique des captures de cameras"; }
+@cant_create_socket { fr: "La création du socket a échoué : %1"; }
+@cant_connect { fr: "La connexion a échoué : %1"; }
+@compteur_HC { fr: "Index Heures creuses %1"; }
+@compteur_HP { fr: "Index Heures pleines %1"; }
+@compteur_BASE { fr: "Index Electricité %1"; }
+@compteur_HPB { fr: "Index HP Bleu %1"; }
+@compteur_HCB { fr: "Index HC Bleu %1"; }
+@compteur_HPW { fr: "Index HP Blanc %1"; }
+@compteur_HCW { fr: "Index HC Blanc %1"; }
+@compteur_HPR { fr: "Index HP Rouge %1"; }
+@compteur_HCR { fr: "Index HC Rouge %1"; }
+@compteur_EJPHN { fr: "Index EJP HN %1"; }
+@compteur_EJPHPM { fr: "Index EJP HPM %1"; }
+@intensite_inst { fr: "Intensite inst. %1"; }
+@intensite_inst1 { fr: "Intensite inst.1 %1"; }
+@intensite_inst2 { fr: "Intensite inst.2 %1"; }
+@intensite_inst3 { fr: "Intensite inst.3 %1"; }
+@puissance_apparente { fr: "Puissance apparente %1"; }
+@option_tarif { fr: "Option tarif électricité %1"; }
+@couleur_demain { fr: "Couleur Tempo demain %1"; }
+@tarif_en_cours { fr: "Tarif en cours %1"; }
+@function_updated { fr: "La fonction %1 a changé, merci de revoir le scenario n°%2."; }
+@run_scenario { fr: "Execution du scénario %1 (%2)"; }
+@upgrade_app_alert { fr: "L'application va être mise à jour. Avez-vous sauvegardé vos données (dossier config) ?"; }
+@upgrade_app_mysql_alert { fr: "L'application va être mise à jour. Avez-vous sauvegardé vos données (dossier config et base de données) ?"; }
+@cnt { fr: "Compteur"; }
+@relai { fr: "Relai"; }
+@user { fr: "Utilisateur"; }
+@carte { fr: "Carte"; }
+@lien { fr: "Lien"; }
+@camera { fr: "Camera"; }
+@scenario { fr: "Scenario"; }
+@cron { fr: "Cron"; }
+@connexionauto { fr: "Auto-connexion"; }
+@pushto { fr: "Compte de notification"; }
+@unite { fr: "Unité"; }
+@graphique { fr: "Graphique"; }
+@page { fr: "page"; }
+@an { fr: "Entrée analogique"; }
+@btn { fr: "Entrée numérique"; }
+@help { fr: "Aide";}
+@page_name { fr: "Titre de la page"; }
+@options { fr: "Options"; }
+@add_relai { fr: "Identifiant de relai"; }
+@add_btn { fr: "Identifiant d'entrée"; }
+@add_cnt { fr: "Identifiant de compteur"; }
+@add_variable { fr: "Identifiant de variable"; }
+@add_vartxt { fr: "Identifiant de variable texte"; }
+@add_an { fr: "Identifiant d'entrée analogique"; }
+@captures { fr: "Captures"; }
+@configuration_general { fr: "Paramétrage général"; }
+@configuration_objet { fr: "Paramétrage des éléments"; }
+@nettoyage_file { fr: "Suppression de fichier inutile"; }
+@unable_to_delete_file { fr: "Impossible de supprimer le fichier %1"; }
+@unable_to_delete_dir { fr: "Impossible de supprimer le dossier %1"; }
+@authorizations_management { fr: "Gestion des habilitations sur les %1"; }
+@connexionauto_actif { fr: "Actif"; }
+@treatmenterror { fr: "Erreur de traitement"; }
+@parameters { fr: "Paramètres"; }
+@pages { fr: "pages"; }
+@onglet_name { fr: "Nom d@onglet"; }
+@preview { fr: "Aperçu"; }
+@filename { fr: "Nom du fichier"; }
+@filesize { fr: "Poids"; }
+@action { fr: "Action"; }
+@select { fr: "Sélection"; }
+@logintype { fr: "Type de connexion : %1"; }
+@nb_extension { fr: "Nombre de carte d'extension"; }
+@lien_label { fr: "Nom du lien"; }
+@lien_href { fr: "URL du lien"; }
+@carte_model { fr:  "Modèle"; }
+@nb_extension_max { fr: "Une carte IPX800 ne peut avoir plus de 3 extensions"; }
+@skin { fr: "Skin"; }
+@unable_to_select_db { fr: "Impossible de se selectionner la base %1 (Erreur : %2)"; }
+@unable_to_connect_db { fr: "Impossible de se connecter au serveur %1 (Erreur : %2)"; }
+@unable_to_create_db { fr: "Impossible de creer la base %1 (Erreur : %2)"; }
+@mysql_error { fr: "Erreur mysql : %1 Requête : %2"; }
+@remoteid { fr: "Code télécommande"; }
+@gpioport { fr: "Numero de port Gpio"; }
+@fa-user { fr: "fa-users"; } 
+@fa-carte { fr: "fa-credit-card"; } 
+@fa-camera { fr: "fa-video-camera"; } 
+@fa-scenario { fr: "fa-history"; } 
+@fa-cron { fr: "fa-clock-o"; } 
+@fa-connexionauto { fr: "fa-lock"; } 
+@fa-pushto { fr: "fa-send-o"; } 
+@fa-unite { fr: "fa-users"; } 
+@fa-graphique { fr: "fa-bar-chart-o"; } 
+@fa-page { fr: "fa-building-o"; }

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Fuseau horaire</titre>
+    <message>fuseau horaire de l'utilisateur. Permet d'afficher l'heure en fonction du fuseau horaire de celui-ci.</message>
+</help>

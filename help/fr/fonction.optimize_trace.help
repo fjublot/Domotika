@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>optimize_trace</titre>
+    <prototype>optimize_trace()</prototype>
+    <message>Optimise a table trace. Important de lancer après les purge.</message>
+</help>

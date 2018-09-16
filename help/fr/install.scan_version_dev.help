@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Surveillance de version</titre>
+    <message>Prend en compte les versions de développement pour la surveillance de version.</message>
+</help>

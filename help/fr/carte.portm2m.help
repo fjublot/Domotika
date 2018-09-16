@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Port M2M</titre>
+    <message>Numéro du port sur lequel répond le serveur Web de la carte IPX800 pour le M2M. Par defaut, le port est 9870. 
+    </message>
+</help>

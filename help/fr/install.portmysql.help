@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Port MySQL</titre>
+    <message>Vous devez mettre le port sur lequel répond le serveur MySQL. Par defaut, le port est 3306. 
+    </message>
+</help>

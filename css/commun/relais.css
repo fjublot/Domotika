@@ -1,0 +1,102 @@
+/* Div principal des relais */
+#relais 
+{
+	display:block;
+	position:relative;
+	width:99%;
+	margin:0 auto;
+	margin-bottom:0.125em;
+	padding-bottom:0.5em;
+	border:0.125em solid #EDEDED;
+	/*background-color: #C9C9C9;*/
+	border-radius:0.625em;
+	text-align:center;
+}
+
+.Containerrelai  
+{
+	position: relative;
+	margin-right :  auto;
+	margin-left  :  auto;
+	float : left;
+	text-align:center;
+}
+
+a.Containerrelai
+{
+	text-decoration: none; 
+	color: black;
+}
+  
+body[class="paysage"]  .Containerrelai {width:6.25%;}
+body[class="portrait"] .Containerrelai {width:12.5%;}
+
+.Enteterelai 
+{
+	display:block;
+	text-align:center!important;
+	border-spacing:0px;
+	padding:0
+}
+
+body[class="paysage"]  .Enteterelai  
+{
+	height:1.5em;
+	font-size:1em;
+}
+    
+body[class="portrait"] .Enteterelai  
+{
+	height:1.5em;
+	font-size:0.8em;
+}
+
+body[class="portrait"] .relai_link
+{
+	font-size:1em;
+	text-align:center!important;
+	font-weight: bold;
+	cursor:  pointer;
+}
+
+body[class="paysage"] .relai_link
+{
+	font-size:1em;
+	text-align:center!important;
+	font-weight: bold;
+	cursor:  pointer;
+	height:2em;
+}
+
+/* Image du bouton relais */
+.Imagerelai 
+{
+	display:block;
+	margin :auto;
+	border-spacing : 0;
+	padding : 0;
+	text-align:center;
+	cursor:  pointer;
+}
+
+body[class="paysage"]  .Imagerelai {width : 85%;}
+body[class="portrait"] .Imagerelai {width : 90%;}
+
+@media screen and (max-width: 640px) 
+{
+	body[class="paysage"]  .Enteterelai  
+	{
+		height:1.5em;
+		font-size:0.6em;
+	}
+		
+	body[class="portrait"] .Enteterelai  
+	{
+		height:1.5em;
+		font-size:0.5em;
+	}
+	
+	
+}
+
+ 

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>wget_xml</titre>
+    <prototype>wget_xml($url)</prototype>
+    <message>Appel une page Web et renvoie un simplexml en retour.</message>
+    <desc_url>Url de la page a retourner</desc_url>
+</help>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>camera_mail</titre>
+    <prototype>camera_mail($subject, $camera, $user, $nbphotos, $intervalle)</prototype>
+    <message>Permet de capturer des images fixes d'une caméra, et de les envoyer par mail à un ou plusieurs user.</message>
+    <desc_subject>Sujet du mail</desc_subject>
+    <desc_camera>Identifiant de la camera</desc_camera>
+    <desc_user>Identifiant de compte a notifier</desc_user>
+    <desc_nbphotos>Nombre de photo</desc_nbphotos>
+    <desc_intervalle>Interval entre chaque photo en seconde</desc_intervalle>
+</help>

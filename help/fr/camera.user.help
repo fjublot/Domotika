@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>User</titre>
+    <message>Nom d\'utilisateur pour se connecter à la caméra.</message>
+</help>

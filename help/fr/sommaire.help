@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<summary>
+	<group file="install.help">
+		<item file="install.nomappli.help"/>
+		<item file="install.mailadmin.help"/>
+		<item file="install.nomadmin.help"/>
+		<item file="install.frequence.help"/>
+		<item file="install.frequence_non_ajax.help"/>
+		<item file="install.cookie.help"/>
+		<item file="install.mysql.help"/>
+		<item file="install.hostmysql.help"/>
+		<item file="install.portmysql.help"/>
+		<item file="install.comptemysql.help"/>
+		<item file="install.passwordmysql.help"/>
+		<item file="install.basemysql.help"/>
+		<item file="install.xmlmysql.help"/>
+		<item file="install.debug.help"/>
+		<item file="install.informmail.help"/>
+		<item file="install.lang.help"/>
+		<item file="install.scan_version_dev.help"/>
+		<item file="install.skin.help"/>
+		<item file="install.timezone.help"/>
+		<item file="install.phppath.help"/>
+		<item file="install.url.help"/>
+		<item file="install.ip.help"/>
+	</group>
+	<group file="user">
+		<item file="user.label.help"/>
+		<item file="user.pass.help"/>
+		<item file="user.passconfirm.help"/>
+		<item file="user.mail.help"/>
+		<item file="user.privilege.help"/>
+		<item file="user.timezone.help"/>
+		<item file="user.actif.help"/>
+		<item file="user.pushto.help"/>
+		<item file="user.notifier.help"/>
+	</group>
+	<group file="pushto">
+		<item file="pushto.type.help"/>
+		<item file="pushto.label.help"/>
+		<item file="pushto.password.help"/>
+		<item file="pushto.signature.help"/>
+		<item file="pushto.actif.help"/>
+		<item file="pushto.timezone.help"/>
+		<item file="pushto.moreinfo.help"/>
+	</group>
+	<group file="carte">
+		<item file="carte.label.help"/>
+		<item file="carte.active.help"/>
+		<item file="carte.ip.help"/>
+		<item file="carte.port.help"/>
+		<item file="carte.portm2m.help"/>
+		<item file="carte.user.help"/>
+		<item file="carte.password.help"/>
+		<item file="carte.pushautonome.help"/>
+		<item file="carte.version.help"/>
+		<group file="relai">
+			<item file="relai.label.help"/>
+			<item file="relai.active.help"/>
+			<item file="relai.push.help"/>
+			<item file="relai.pushon.help"/>
+			<item file="relai.pushto.help"/>
+			<item file="relai.type.help"/>
+			<item file="relai.ta.help"/>
+			<item file="relai.tb.help"/>
+			<item file="relai.labelipx.help"/>
+			<item file="relai.imageon.help"/>
+			<item file="relai.messageon.help"/>
+			<item file="relai.imageoff.help"/>
+			<item file="relai.messageoff.help"/>
+			<item file="relai.message.help"/>
+			<item file="relai.ctrlcarte.help"/>
+			<item file="relai.ctrlbtn.help"/>
+			<item file="relai.ctrlmessageup.help"/>
+			<item file="relai.ctrlmessagedn.help"/>
+			<item file="relai.activationscenario.help"/>
+			<item file="relai.deactivationscenario.help"/>
+			<item file="relai.msgpushoff.help"/>
+			<item file="relai.msgpushon.help"/>
+		</group>
+		<group file="btn">
+			<item file="btn.label.help"/>
+			<item file="btn.active.help"/>
+			<item file="btn.push.help"/>
+			<item file="btn.pushon.help"/>
+			<item file="btn.pushto.help"/>
+			<item file="btn.type.help"/>
+			<item file="btn.labelipx.help"/>
+			<item file="btn.imageup.help"/>
+			<item file="btn.messageup.help"/>
+			<item file="btn.imagedn.help"/>
+			<item file="btn.messagedn.help"/>
+			<item file="btn.messagedn.help"/>
+			<item file="btn.pressscenario.help"/>
+			<item file="btn.relachescenario.help"/>
+			<item file="btn.msgpushdn.help"/>
+			<item file="btn.msgpushup.help"/>
+		</group>
+		<group file="cnt">
+			<item file="cnt.label.help"/>
+			<item file="cnt.active.help"/>
+			<item file="cnt.unite.help"/>
+			<item file="cnt.valeur.help"/>
+			<item file="cnt.setcnt.help"/>
+			<item file="cnt.formule.help"/>
+		</group>
+		<group file="an">
+			<item file="an.label.help"/>
+			<item file="an.active.help"/>
+			<item file="an.type.help"/>
+			<item file="an.compensation.help"/>
+			<item file="an.autozoom.help"/>
+			<item file="an.min.help"/>
+			<item file="an.max.help"/>
+			<item file="an.precision.help"/>
+		</group>
+	</group>
+	<group file="scenario">
+		<item file="scenario.label.help"/>
+		<item file="scenario.image.help"/>
+		<item file="scenario.code.help"/>
+		<item file="scenario.asynchrone.help"/>
+	</group>
+	<group file="cron">
+		<item file="cron.label.help"/>
+		<item file="cron.actif.help"/>
+		<item file="cron.minute.help"/>
+		<item file="cron.heure.help"/>
+		<item file="cron.jour_m.help"/>
+		<item file="cron.mois.help"/>
+		<item file="cron.jour_s.help"/>
+		<item file="cron.scenario.help"/>
+	</group>
+	<group file="connexionauto">
+		<item file="connexionauto.label.help"/>
+		<item file="connexionauto.ip.help"/>
+		<item file="connexionauto.compte.help"/>
+	</group>
+	<group file="camera">
+		<item file="camera.no.help"/>
+		<item file="camera.label.help"/>
+		<item file="camera.host.help"/>
+		<item file="camera.port.help"/>
+		<item file="camera.canal.help"/>
+		<item file="camera.model.help"/>
+		<item file="camera.user.help"/>
+		<item file="camera.password.help"/>
+		<item file="camera.width.help"/>
+		<item file="camera.height.help"/>
+		<item file="camera.flux.help"/>
+		<item file="camera.image.help"/>
+		<item file="camera.cderelai.help"/>
+		<item file="camera.autorefresh.help"/>
+		<item file="camera.pushscenario.help"/>
+		<item file="camera.timezone.help"/>
+	</group>
+	<group file="variable">
+		<item file="variable.label.help"/>
+		<item file="variable.unite.help"/>
+		<item file="variable.precision.help"/>
+	</group>
+	<group file="unite">
+		<item file="unite.label.help"/>
+		<item file="unite.numero.help"/>
+	</group>
+	<group file="lien">
+		<item file="lien.href.help"/>
+		<item file="lien.image.help"/>
+		<item file="lien.label.help"/>
+	</group>
+	<group file="fonction">
+		<item file="fonction.cameramail.help"/>
+		<item file="fonction.GetEvent.help"/>
+		<item file="fonction.get_nb_value.help"/>
+		<item file="fonction.get_next_time.help"/>
+		<item file="fonction.get_prev_time.help"/>
+		<item file="fonction.get_time_function.help"/>
+		<item file="fonction.get_value.help"/>
+		<item file="fonction.get_value_function.help"/>
+		<item file="fonction.get_variable.help"/>
+		<item file="fonction.get_variable_id.help"/>
+		<item file="fonction.furtif_relai.help"/>
+		<item file="fonction.moyenner_table.help"/>
+		<item file="fonction.optimize_trace.help.help"/>
+		<item file="fonction.purge_auto_an.help"/>
+		<item file="fonction.purge_auto_cnt.help"/>
+		<item file="fonction.purge_auto_trace.help"/>
+		<item file="fonction.purge_table.help"/>
+		<item file="fonction.purge_trace.help"/>
+		<item file="fonction.pushto.help"/>
+		<item file="fonction.send_mail.help"/>
+		<item file="fonction.set_cnt.help"/>
+		<item file="fonction.set_value.help"/>
+		<item file="fonction.set_variable.help"/>
+		<item file="fonction.set_relai.help"/>
+		<item file="fonction.sonnettemail.help"/>
+		<item file="fonction.trace.help"/>
+		<item file="fonction.wget.help"/>
+		<item file="fonction.wget_xml.help"/>
+	</group>
+	<group file="graphique">
+		<item file="graphique.chart_option.help"/>
+		<item file="graphique.data.help"/>
+		<item file="graphique.decimalPoint.help"/>
+		<item file="graphique.export.help"/>
+		<item file="graphique.height.help"/>
+		<item file="graphique.label.help"/>
+		<item file="graphique.mode.help"/>
+		<item file="graphique.navigator.help"/>
+		<item file="graphique.public.help"/>
+		<item file="graphique.subtitle.help"/>
+		<item file="graphique.thousandsSep.help"/>
+		<item file="graphique.title.help"/>
+		<item file="graphique.type.help"/>
+		<item file="graphique.width.help"/>
+	</group>
+</summary>

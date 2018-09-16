@@ -1,0 +1,4 @@
+Pour avoir plus d'information aller sur :
+http://sourceforge.net/p/multicardipx800/
+Pour une installation facile, il suffit de télécharger le fichier install_multisiteipx800.php sur http://sourceforge.net/projects/multicardipx800/files/install_multisiteipx800.php/download
+Ensuite il suffit de le déposer dans un répertoire sur votre serveur web et d'y accéder au fichier via votre navigateur préféré et de répondre aux questions.

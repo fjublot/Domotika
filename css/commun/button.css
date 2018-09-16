@@ -1,0 +1,30 @@
+.center
+{
+text-align:center;
+}
+
+#composebuttons {
+    margin-bottom: 7px;
+    }
+    
+input.button.mainaction,
+input.button
+ {
+    display: inline-block;
+    height: 4em;
+    margin: 0.25em auto 0;
+    width: 90%;
+}
+
+input.button.alert {
+    background: url(images/button/bt-alert.png);
+    border-color: #DF5864;
+}
+
+input.button.alert:focus,
+input.button.alert:hover {
+    background: url(images/button/bt-alert-over.png);
+}
+
+
+    

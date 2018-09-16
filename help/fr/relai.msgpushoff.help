@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Message de notification sur désactivation</titre>
+    <message>Message de notification envoyé lorsque le relai est désactivé. Possibilité d'utilise les macro %carte%, %relai% et %etat%pour remplacer par les labels.</message>
+</help>

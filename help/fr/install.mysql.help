@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Activation de Mysql</titre>
+    <message>Permet d'activer Mysql. Celui-ci sert à mémoriser l'état des différents éléments et générer des graphiques.</message>
+</help>

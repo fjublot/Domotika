@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>get_next_time</titre>
+    <prototype>get_next_time($type, $numero, $when)</prototype>
+    <message>Retourne le timestamp de la prochaine valeur du type (an, relai, btn, cnt) numero ($numero) à un instant ($when facultatif).</message>
+	<desc_type>Type d'objet pour lequel on veut la valeur (an, relai, btn, cnt)</desc_type>
+    <desc_numero>Identifiant de l'objet</desc_numero>
+    <desc_when>Timestamp facultatif de la date a laquel on veut la valeur</desc_when>
+</help>

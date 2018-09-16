@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Mode du graphique</titre>
+    <message>
+    Il existe 2 modes :&lt;br&gt;
+    Graphique : qui est un graphique simple.&lt;br&gt;
+    Graphique Zoom : qui est un graphique avec une barre de navigation en bas.
+</message>
+</help>

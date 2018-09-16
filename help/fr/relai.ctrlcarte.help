@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Contrôle carte</titre>
+    <message>Nom de la carte dont l'un des états doit être controlé avant déclenchement du relais.</message>
+</help>

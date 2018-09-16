@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>purge_auto_trace</titre>
+    <prototype>purge_auto_trace()</prototype>
+    <message>Purge les traces de façon régulière et intelligemment.</message>
+</help>

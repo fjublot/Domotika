@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>trace</titre>
+    <prototype>trace($message, $typetrace)</prototype>
+    <message>Ajoute un message d'erreur dans les traces pour le type de trace indiqué.</message>
+    <desc_message>Message que l'on souhaite tracer</desc_message>
+    <desc_typetrace>Type de trace ('acces', 'asynch', 'carte', 'cron', 'ihm', 'install', 'M2M', 'push', 'trad', 'version', 'xml', ...)</desc_typetrace>
+</help>

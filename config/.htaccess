@@ -1,0 +1,5 @@
+Order Deny,Allow
+Deny from all
+<FilesMatch "config.conf.*">
+Deny from all
+</FilesMatch>

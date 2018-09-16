@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>set_relai</titre>
+    <prototype>set_relai($relai_numero, $value)</prototype>
+    <message>Position l'état du relai ($relai_numero).</message>
+    <desc_relai>Identifiant du relai</desc_relai>
+    <desc_value>Valeur à laquelle on souhaite le forcer (0 ou 1)</desc_value>
+</help>

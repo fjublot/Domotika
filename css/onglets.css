@@ -1,0 +1,44 @@
+		.onglets{
+			display: none;
+		}
+		.onglets li{
+			position: relative;
+			float: left;
+			list-style: none;
+			padding: 2px 2px 2px;
+			margin-right: 1px;
+			border: 1px solid black;
+			cursor: pointer;
+			background-color: #EEEEEE;
+			z-index: 1;
+			-webkit-border-top-left-radius: 5px;
+			-webkit-border-top-right-radius: 5px;
+			-moz-border-radius-topleft: 5px;
+			-moz-border-radius-topright: 5px;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+		}
+			.onglets .actif{
+			border-bottom: none;
+			font-weight: bold;
+			z-index: 10;
+		}
+			.contenuonglets{
+			clear: both;
+			position: relative;
+			margin: 0;
+			border: 1px solid black;
+			z-index: 5;
+			top: -1px;
+			background-color: #EEEEEE;
+			overflow: hidden;
+			-webkit-border-bottom-left-radius: 5px;
+			-webkit-border-bottom-right-radius: 5px;
+			-moz-border-radius-bottomleft: 5px;
+			-moz-border-radius-bottomright: 5px;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+			-webkit-border-top-right-radius: 5px;
+			-moz-border-radius-topright: 5px;
+			border-top-right-radius: 5px;
+		}

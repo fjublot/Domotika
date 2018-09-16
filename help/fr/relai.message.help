@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Message</titre>
+    <message>Message affiché quand le relais lance une impulsion (type poussoir). Possibilité d'utilise les macro %carte%, %relai% et %etat%pour remplacer par les labels.</message>
+</help>

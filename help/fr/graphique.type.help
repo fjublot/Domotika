@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Type de courbe</titre>
+    <message>
+    Il existe pleins de courbes :&lt;br&gt;
+    Bar&lt;br&gt;
+    Ligne&lt;br&gt;
+    Ligne lisse&lt;br&gt;
+    Aire&lt;br&gt;
+    Aire lisse&lt;br&gt;
+    Colonne&lt;br&gt;
+    Camenbert&lt;br&gt;
+    Liste de point&lt;br&gt;
+    Différence d\'aire&lt;br&gt;
+    Aire entre 2 courbres&lt;br&gt;
+    Plage
+</message>
+</help>

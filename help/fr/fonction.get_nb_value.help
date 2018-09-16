@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>get_nb_value</titre>
+    <prototype>get_nb_value($type, $numero, $start, $end)</prototype>
+    <message>Retourne le nombre de données du type (an, relai, btn, cnt) numero ($numero) entre 2 instants ($start et $end facultatif).</message>
+    <desc_type>Type d'objet pour lequel on veut la valeur (an, relai, btn, cnt)</desc_type>
+    <desc_numero>Identifiant de l'objet</desc_numero>
+    <desc_start>Timestamp facultatif de la date a partir de laquelle on veut la valeur. Par defaut depuis le debut.</desc_start>
+    <desc_end>Timestamp facultatif de la date jusqu'à laquelle on veut la valeur. Par defaut jusqu'à maintenant.</desc_end>
+</help>

@@ -1,0 +1,41 @@
+div.nicetitle 
+{
+    position: absolute;
+    padding: 0.125px;
+    top: 0px;
+    left: 0px;
+    color: white;
+    font-size: 0.8em;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    width: 25em;
+    font-weight: bold;
+    background: url(images/nicetitle/ntbg.png);
+    
+    /* Mozilla proprietary */
+    -moz-border-radius: 0.625em;
+    border-radius:	0.625em;
+}
+div.nicetitle p 
+{
+    margin: 0; padding: 0 3px;
+}
+div.nicetitle p.destination 
+{
+    font-size: 0.5em;
+    text-align: left;
+    padding-top: 3px;
+}
+div.nicetitle h1 
+{
+    font-size: 1.3em;
+    text-align: center;
+    background: url(images/nicetitle/ntbg.png);
+
+  	background:		#5A6893;
+  	background:		-webkit-gradient(linear,0% 0%,0% 100%,from(#cdd5df),color-stop(3%,#b0bccd),color-stop(50%,#889bb3),color-stop(51%,#8195af),color-stop(97%,#6d84a2),to(#2d3642));
+  	background-color :		#5A6893;
+  	box-sizing:		border-box;
+  	border-top-left-radius:	0.625em;
+  	border-top-right-radius:	0.625em;
+  /*width:25.5em;*/ 
+}

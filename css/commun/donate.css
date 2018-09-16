@@ -1,0 +1,30 @@
+/* CSS Document */
+#donate
+{
+	float:left;
+	display:inline;
+	width:100%;
+	margin:0 auto;
+	border:.125em solid #EDEDED;
+	background-color: #C9C9C9;
+	border-radius:.625em;
+}
+#donate .Icone
+{
+	float:left;
+	left:0.625em;
+	margin:.3125em;
+	width:5em;
+	height:5em;
+}
+#donate .Texte
+{
+	/*float:left;*/
+	white-space: pre-line;
+	text-align:center;
+}
+#donate .Texte p
+{
+	font-size:1em;
+	height:1em;
+}

@@ -1,0 +1,260 @@
+/*CSS POUR SERVEUR DOMOTIQUE*/
+*
+{
+margin:0;
+padding:0;
+}
+#graph
+{  
+margin-left   : auto;
+margin-right  : auto;
+width:50%;
+padding:2em;
+}
+
+img
+{
+border:0;
+}
+
+body
+{
+display:block;
+color: black;
+font-family:arial, tahoma, helvetica, verdana, sans-serif;
+/*background-color: #DDDDDD;*/
+background-color: #d2d2d2;
+margin-top: 0;
+margin:auto;
+}
+body
+{
+min-height:416px;
+}
+
+
+@media screen and (min-width: 640px) 
+{
+body
+{
+min-height:716px;
+}
+body[class="portrait"] td.LiveView
+{
+width:640px;
+height:240px;
+}
+body[class="paysage"]  td.LiveView
+{
+width:640px;
+height:480px;
+}
+}
+@media screen and (max-width: 640px) 
+{
+body
+{
+min-height:716px;
+}
+body[class="portrait"] td.LiveView
+{
+width:320px;
+height:240px;
+}
+body[class="paysage"]  td.LiveView
+{
+width:320px;
+height:240px;
+}
+}
+#Erreur .p
+{
+text-align:center;
+font-size:3.125em;
+}
+#Erreur .img 
+{
+width:12em;
+height:12em;
+}
+.UpperCase
+{
+text-transform: uppercase;
+}
+
+
+#Popup  
+{
+display:block;
+position:relative;
+width:99%;
+margin:0 auto;
+margin-bottom:0.125em;
+vertical-align:middle;
+text-align:center;
+color:white;
+border:0.125em solid #EDEDED;
+background-color: grey;
+-moz-border-radius: 0.625em;
+-webkit-border-radius: 0.625em;
+}
+.Erreur, #Erreur 
+{display:block;
+position:relative;
+width:99%;
+margin:0 auto;
+margin-bottom:0.125em;
+vertical-align:middle;
+text-align:center;
+color:white;
+border:0.125em solid #EDEDED;
+background-color: #E397A1;
+-moz-border-radius:0.625em;
+-webkit-border-radius:0.625em;
+}
+.Warning, #Warning 
+{display:block;
+position:relative;
+width:99%;
+margin:0 auto;
+margin-bottom:0.125em;
+vertical-align:middle;
+text-align:center;
+color:white;
+border:0.125em solid #EDEDED;
+background-color: #E397A1;
+-moz-border-radius:0.625em;
+-webkit-border-radius:0.625em;
+}
+
+.DelUserImg,
+body[class="portrait"] .DelUserImg,
+body[class="paysage"]  .DelUserImg
+{
+width:2.5em;
+height:2.5em;
+}
+.ImgValid,
+body[class="portrait"] .ImgValid,
+body[class="paysage"]  .ImgValid
+{
+	top:0.625em;
+	margin:0px;
+	width:1.875em;
+	height:1.875em;
+	border:0px;
+}
+.valid
+{
+	float:right;
+}
+
+#MsgAccueil 
+{
+font-size:0.6em;
+color:white;
+position:absolute;
+top:1em;
+left:0.4375em;
+margin:0;
+width:20%;
+height:1.25em;
+}
+
+.TitreForm,
+body[class="paysage"]  .TitreForm
+{
+padding:0.3125em;
+font-weight: bold;
+height:2em;
+font-size:2em;
+text-align : center !important ;
+background-color: white;
+color: black ;
+-moz-border-top-left-radius:0.625em;
+-moz-border-top-right-radius:0.625em;
+-webkit-border-top-left-radius:0.625em;
+-webkit-border-top-right-radius:0.625em;
+}
+body[class="portrait"] .TitreForm
+{
+padding:0.3125em;
+font-weight: bold;
+height:1em;
+font-size:1em;
+text-align : center !important ;
+background-color: white;
+color: black ;
+-moz-border-top-left-radius:0.625em;
+-moz-border-top-right-radius:0.625em;
+-webkit-border-top-left-radius:0.625em;
+-webkit-border-top-right-radius:0.625em;
+}
+
+#Conteneur
+{
+display:block;
+position:relative;
+width:99%;
+margin:0em auto; 
+/*margin-bottom:0.125em;
+*/ 
+}
+
+hr
+{
+clear : both;
+visibility : hidden;
+} 
+
+form div.bt
+{
+text-align: center; /* ie8 ne veut pas d'input en display block */
+}
+
+input.Envoyer50
+{
+Width:45%;
+Height:4em;
+}
+input.Annuler50
+{
+Width:45%;
+Height:4em;
+}
+input.Supprimer90
+{
+Width:90%;
+Height:4em;
+background-color:red;
+}
+input.Bt90
+{
+Width:90%;
+Height:4em; 
+display: block;  
+display: inline-block; /*pour ie */
+margin: 0.25em auto 0;
+}
+
+
+.clickable
+{
+cursor :			pointer;
+}
+
+.preview_icon
+{
+width: 				2.4em;
+height:				2.4em;
+}
+
+.help-btn
+{
+float:right;
+}
+
+td {
+    padding-left: 5px;
+    padding-right: 5px;
+}

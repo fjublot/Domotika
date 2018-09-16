@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Activation de profile</titre>
+    <message>Permet d'activer un profile. Normalement, cette activation se fait par mail.</message>
+</help>

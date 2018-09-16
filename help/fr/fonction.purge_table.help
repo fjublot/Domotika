@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>purge_table</titre>
+    <prototype>purge_table($table, $secondes, $numero)</prototype>
+    <message>Purge la $table (an, btn, relai, cnt, variable) pour les données plus ancienne que $secondes. Si $numero est definit se limit à cette entrée, sortie, variable, ...</message>
+    <desc_table>Table a purger (an, btn, relai, cnt, variable)</desc_table>
+    <desc_secondes>Quel durée faut-il conserver en seconde</desc_secondes>
+    <desc_numero>Numéro d'entrée, sortie, variable, ... si l'on ne souhaite purger que celle-ci</desc_numero>
+</help>

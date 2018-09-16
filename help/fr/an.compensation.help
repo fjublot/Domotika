@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Compensation</titre>
+    <message>Permet de définir l'objet qui rentre dans la formule de compensation pour le calcul.</message>
+</help>

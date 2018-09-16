@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Push</titre>
+    <message>
+    Envoi d'un push en cas de déclenchement du relais (on->off ou off->on).
+    Deux fonctionnements possibles :
+    <ul><li>Si la carte est autonome
+    C'est le push de la carte qui déclenchera une action de l'application même si vous n'êtes pas sur une page du site.</li>
+    <li>Si la carte n'est pas autonome (V1,V2)
+    Seules les actions commandées par le site donneront lieu à un push.</li></ul></message>
+</help>

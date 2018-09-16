@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Mois</titre>
+    <message>Mois de déclenchement de la tache planifié. Pour chaque unité de temps (minute/heure/...) les notations possibles sont :&lt;br&gt;
+&lt;ul&gt;&lt;li&gt;* : à chaque unité de temps (0, 1, 2, 3, 4...)&lt;/li&gt;
+&lt;li&gt;5,8 : les unités de temps 5 et 8&lt;/li&gt;
+&lt;li&gt;2-5 : les unités de temps de 2 à 5 (2, 3, 4, 5)&lt;/li&gt;&lt;/ul&gt;</message>
+</help>

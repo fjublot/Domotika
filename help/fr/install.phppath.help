@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Php Path</titre>
+    <message>Chemin absolu de php pour une exécution asynchrone des scenario.</message>
+</help>

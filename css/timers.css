@@ -1,0 +1,8 @@
+.timer input {
+    background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    height: 16px;
+    margin: 3px 4px 3px 0;
+    padding: 1px;
+    width: 96px;
+}

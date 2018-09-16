@@ -1,0 +1,136 @@
+#Topbar
+{
+	position:		relative;
+	height:			3em;
+	width:			100%;
+	text-align:		center;
+	background:		#5A6893;
+	background:		-moz-linear-gradient(linear,0% 0%,0% 100%,from(#cdd5df),color-stop(3%,#b0bccd),color-stop(50%,#889bb3),color-stop(51%,#8195af),color-stop(97%,#6d84a2),to(#2d3642));
+	background-color :		#5A6893;
+	box-sizing:		border-box;
+	border-bottom-left-radius:	0.625em;
+	border-bottom-right-radius:	0.625em;
+}
+
+body[class="paysage"] #Title
+{
+	top:			0em;
+	color:			white;
+	font-size:		1.5em;
+	font-weight:	bold;
+	text-align:		center;
+	text-overflow:	ellipsis;
+	white-space:	nowrap;
+	overflow:		hidden;
+	text-shadow:	rgba(0,0,0,0.6) 0 -0.08em 0;     
+}
+
+body[class="portrait"] #Title
+{
+	top:			0em;
+	color:			white;
+	font-size:		1em;
+	font-weight:	bold;
+	text-align:		center;
+	text-overflow:	ellipsis;
+	white-space:	nowrap;
+	overflow:		hidden;
+	text-shadow:	rgba(0,0,0,0.6) 0 -1px 0;     
+}
+
+
+body[class="paysage"] #time
+{
+	font-size:		1em;
+}
+
+body[class="portrait"] #time
+{
+	font-size:		0.5em;
+}
+
+.boutons
+{
+	top:			0.16em;
+	position:		absolute;
+	width:			2.45em;
+	height:			2.45em;
+}
+
+#BtnAccueil
+{
+	left:		0.2em;
+}
+
+#BtnVideo
+{
+	left:		3em;
+}
+
+#BtnGraph
+{
+	left:		5.8em;
+}
+
+#BtnParam
+{
+	right:		5.45em;
+}
+
+#BtnRefresh 
+{
+	display:	none;
+	right:		2.65em;
+}
+
+@media screen and (max-width: 640px) 
+{
+#BtnParam
+{
+	right:		3em;
+}
+
+#BtnRefresh 
+{
+	display:	none;
+	right:		0.2em;
+}
+
+#BtnGraph, #UserInfo 
+{
+	display:	none;
+}
+body[class="portrait"] #Title  {font-size: 0.6em}
+body[class="paysage"]  #Title  {font-size: 0.5em}
+}
+
+
+#StatusMsg
+{
+	top:			1.5em;
+	font-size:		0.8em;
+	color: 		white;
+	height:		0.8em;
+}
+
+#Msg
+{
+display:block;
+position:relative;
+width:99%;
+margin:0 auto;
+margin-bottom:0.125em; 
+vertical-align:middle; 
+text-align:center; 
+color:white; 
+border:0.125em solid #EDEDED;
+-moz-border-radius:0.625em;
+-webkit-border-radius:0.625em;
+
+}
+    
+#UserInfo img
+{
+width:1.25em;
+height:1.25em;
+}

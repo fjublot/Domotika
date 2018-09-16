@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Les Entrées Analogiques (An)</titre>
+    <message>Les entrées ont été créées lors de la création de la carte en fonction de la version indiquée.Pour paramétrer les entrées, cliquer sur Gestion des cartes à partir du menu de paramétrage, cliquez sur une carte existante.
+    Les entrées peuvent permettre le branchement de différents types de sondes (température, hygrométrie, luminosité...)
+    </message>
+</help>

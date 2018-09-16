@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Message on</titre>
+    <message>Message affiché quand le relais passe à l'état allumé. Possibilité d'utilise les macro %carte%, %relai% et %etat%pour remplacer par les labels.</message>
+</help>

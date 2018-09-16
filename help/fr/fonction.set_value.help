@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>set_value</titre>
+    <prototype>set_value($type, $numero, $value)</prototype>
+    <message>Permet de forcer un élément de type $type numero $numero à la valeur brut.</message>
+    <desc_type>Type d'objet</desc_type>
+    <desc_numero>Numero de l'élément</desc_numero>
+    <desc_value>Valeur</desc_value>
+</help>

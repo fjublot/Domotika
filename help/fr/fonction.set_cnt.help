@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>set_cnt</titre>
+    <prototype>set_cnt($nocnt, $value)</prototype>
+    <message>Permet de forcer le compteur d'une carte Ex: set_cnt(3,50) forcera le compteur 3 à 50 (valeur brute).</message>
+    <desc_nocnt>Numero de compteur</desc_nocnt>
+    <desc_value>Valeur brut</desc_value>
+</help>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Les Utilisateurs (User)</titre>
+    <message>L'application gère des comptes utilisateurs. Pour chaque compte, vous pouvez configurer l'accès autx relais, btns, ans, cameras... Pour configurer un compte, choisissez l'option Gestion des utilisateurs dans le menu paramétrage.</message>
+</help>

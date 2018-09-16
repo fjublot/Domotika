@@ -1,0 +1,94 @@
+/* Div principal des btns */
+.content-page {width:98%}
+#Regroup    {display:block;position:relative;width:99%;margin:0 auto 0.125em;border:0.125em solid #EDEDED;	background: url(images/bg-linen.jpg) repeat #C9C9C9; border-radius:0.625em;}
+.Entete, .EnteteParam {border-spacing:0px;padding:0}
+.Pointer{	cursor:  pointer;}
+.Visibility-hidden {visibility:hidden;}
+
+body  .Container {position:relative; margin:0 auto; float:left;}
+body.paysage  .Entete, 
+body.paysage  .EnteteParam,
+body.paysage  .Caption {text-align:center !important;height:1.5em;font-size:0.5em;vertical-align:middle;position:relative;color: #000;margin-bottom:5px;}
+body.paysage  .EnteteParam {cursor: pointer; font-family: Helvetica,Arial,sans-serif;  font-weight: bold; text-shadow: 0 1px 0 #3373A5;}
+body.paysage  .Caption {margin-bottom:1.5em;}
+/*body.paysage  .Valeur  {font-size:1.8em;}
+*/
+body.paysage  .UnitAn, body.paysage  .UnitCnt, body.paysage  .UnitVariable   {font-size:0.5em;display:inline;padding-left: 0.2em;}
+
+
+body.portrait .Entete, 
+body.portrait .Caption {text-align:center !important;height:1.5em;font-size:1em;vertical-align:middle;position:relative;}
+
+body.portrait .Valeur  {text-align:center !important;height:1.5em;font-size:1.5em;vertical-align:middle;position:relative;top:25%;}
+body.portrait .UnitAn, body.portrait .UnitCnt, body.portrait .UnitVariable   {font-size:0.8em;display:inline;}
+
+  
+.Image{display:block;padding-left:5px;padding-right:5px;border-spacing:0;text-align:center;position:relative;width:100%;}
+body.paysage  .Image433      {width:35%;min-height:1.25em; height:1.25em;padding-left:1.25em;}
+body.portrait .Image433      {width:20%;min-height:1.5em; height:1.5;empadding-left:1.5em;}
+
+body.paysage  .CdeOn    {width:48%;min-height:2.25em; height:2.25em;margin-top:0.2em}
+body.portrait .CdeOn    {width:40%;min-height:2.5em; height:2.5em;margin-top:0.2em}
+body.paysage  .CdeOff   {width:48%;min-height:2.25em; height:2.25em}
+body.portrait .CdeOff   {width:40%;min-height:2.5em; height:2.5em}
+
+body.paysage  .ImageParam {width:3em;min-height:3em; height:3em; top:2em; margein:1em auto; padding:0.7em 0 0 0;;}
+body.portrait .ImageParam {width:80%;min-height:10em; height:10em;margein:0.25em auto; }
+body.paysage  .DispValue  {width:95%;text-align:center !important; text-overflow:	ellipsis; vertical-align:middle; /*min-height:5em; height:5em*/}
+body.portrait .DispValue  {text-align:center !important; text-overflow:	ellipsis; vertical-align:middle; min-height:5em; height:5em}
+
+body.paysage  .Container {font-size:1.5em; /*min-height:7em; height:7em*/} 
+body.portrait .Container {font-size:1.5em; /*min-height:5em; height:5em*/}
+
+@media screen and (max-device-width:768px) and (orientation: landscape)
+/*@media screen and (max-device-width: 768px)*/ 
+{
+	body.paysage  .Entete, 
+  body.paysage  .Caption {height:1.5em;font-size:0.6em;}
+
+	body.portrait  .Entete, 
+  body.portrait  .Caption {height:1.1em;font-size:0.5em;}
+  
+  /*
+
+  */
+  body.portrait .Image,
+  body.portrait .DispValue  {min-height:4em; height:4em}
+  body.paysage  .Image,    
+  body.paysage .DispValue   {min-height:4em; height:4em}
+  
+  body.paysage  .Container {font-size:1.5em; /*min-height:7em; height:7em*/} 
+  body.portrait .Container {font-size:1em; /*min-height:5em; height:4.5em*/}
+  body.portrait .UnitAn, body.portrait .UnitCnt, body.portrait .UnitVariable   {font-size:0.6em;display:inline;}
+}
+
+@media screen and (min-device-width: 768px) and (orientation: portrait) 
+{
+body.paysage  .ContainerParam {
+     position:relative;
+     float:left;
+     font-family: Arial,sans-serif;
+     font-size: 1.6em;
+     margin:0.25%;
+     width:12%;
+     height: 5em; 
+     padding-top: 7px; /*permet le centrage vertical*/
+     text-align: center;
+     color: #000;
+     background: #CACACA;  
+     background: -webkit-linear-gradient( #8D8D8D, #2C2C2C);
+     background:    -moz-linear-gradient( #8D8D8D, #2C2C2C);
+     background:     -ms-linear-gradient( #8D8D8D, #2C2C2C);
+     background:      -o-linear-gradient( #8D8D8D, #2C2C2C);
+     background:         linear-gradient( #8D8D8D, #2C2C2C);
+     border-radius: 0.5em;
+     text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
+     box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
+                 0 -1px 0 rgba( 255, 255, 255, 0.4);
+
+       }
+	
+	.nav > li {font-size:2em;}
+
+body.portrait .ContainerParam {position:relative; margin:1em auto; float:left;border:0.25em solid #FFF;-moz-border-radius:2em;-webkit-border-radius:2em;}
+}

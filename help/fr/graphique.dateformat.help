@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Format de date</titre>
+    <message>Permet de définir le format de la date affiché dans les info-box.&lt;p&gt;
+&lt;b&gt;Jours&lt;/b&gt;&lt;br&gt;
+%a: Jour court Exemple 'Mon'&lt;br&gt;
+%A: Jour long, Exemple 'Monday'&lt;br&gt;
+%d: Numero du jour du mois sur 2 chiffres, 01 à 31&lt;br&gt;
+%e: Numero du jour du mois, 1 jusqu'à 31&lt;p&gt;
+&lt;b&gt;Mois&lt;/b&gt;&lt;br&gt;
+%b: Mois court, Exemple 'Jan'&lt;br&gt;
+%B: Mois long, Exemple 'January'&lt;br&gt;
+%m: Numéro du mois sur 2 chiffres, 01 jusqu'à 12&lt;p&gt;
+&lt;b&gt;Année&lt;/b&gt;&lt;br&gt;
+%y: Année sur 2 chiffres, Exemple 09 pour 2009&lt;br&gt;
+%Y: Année sur 4 chiffres, Exemple 2009&lt;p&gt;
+&lt;b&gt;Temps&lt;/b&gt;&lt;br&gt;
+%H: Heure sur 2 chiffres au format 24h, 00 jusqu'à 23&lt;br&gt;
+%I: Heure sur 2 chiffres au format 12h, 00 jusqu'à 11&lt;br&gt;
+%l: Heure au format 12h, 1 jusqu'à 12&lt;br&gt;
+%M: Minutes sur deux chiffres, 00 jusqu'à 59&lt;br&gt;
+%p: AM ou PM en majuscule&lt;br&gt;
+%P: AM ou PM en minuscule&lt;br&gt;
+%S: Secondes sur 2 chiffres, 00 jusqu'à 59&lt;br&gt;
+%L: Milliseconds&lt;br&gt;
+</message>
+</help>

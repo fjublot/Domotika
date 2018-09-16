@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>ipx800_get_value</titre>
+    <prototype>ipx800_get_value($carte, $type, $numero, $when)</prototype>
+    <message>Retourne l'état du type (an, relai, btn, cnt) numero ($numero) de la carte ($carte) à un instant ($when facultatif).</message>
+    <desc_carte>Identifiant de la carte</desc_carte>
+    <desc_type>Type d'objet pour lequel on veut la valeur (an, relai, btn, cnt)</desc_type>
+    <desc_numero>Identifiant de l'objet</desc_numero>
+    <desc_when>Timestamp facultatif de la date a laquel on veut la valeur. Par defaut la valeur courante (récupération status.xml).</desc_when>
+</help>

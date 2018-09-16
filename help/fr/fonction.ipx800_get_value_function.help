@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>ipx800_get_value_function</titre>
+    <prototype>ipx800_get_value_function($carte_id, $type, $numero, $start, $end, $function, $close)</prototype>
+    <message>Retourne l'état du type (an, relai, btn, cnt) numero ($numero) de la carte ($carte_id) entre 2 instants ($start et $end) et applique &lt;a href=&quot;http://dev.mysql.com/doc/refman/5.0/fr/group-by-functions.html&quot;&gt;une fonction MYSQL&lt;/a&gt;.</message>
+    <desc_carte_id>Numero de carte</desc_carte_id>
+    <desc_type>Type (an, relai, btn, cnt)</desc_type>
+    <desc_numero>Numero du type</desc_numero>
+    <desc_start>timestamp de debut de la plage, utiliser '' pour ne pas la definir</desc_start>
+    <desc_end>timestamp de fin de la plage, utiliser '' pour ne pas la definir</desc_end>
+    <desc_function>&lt;a href=&quot;http://dev.mysql.com/doc/refman/5.0/fr/group-by-functions.html&quot;&gt;Fonction MYSQL&lt;/a&gt;</desc_function>
+    <desc_close>Permet de définir une close restrictive.</desc_close>
+</help>

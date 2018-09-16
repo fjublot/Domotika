@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Message de notification sur pression</titre>
+    <message>Message de notification envoyé lorsque le bouton est appuyé. Possibilité d'utilise les macro %carte%, %btn% et %etat% pour remplacer par les labels.</message>
+</help>

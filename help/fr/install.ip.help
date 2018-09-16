@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Adresse Ip</titre>
+    <message>Vous devez mettre l'adresse IP ou l'url de la carte IPX800</message>
+</help>

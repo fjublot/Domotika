@@ -1,0 +1,67 @@
+#loginform input.button
+{
+	font-weight:	bold;
+	background-color:#3b5998;
+	color:			#ffffff;
+	border-top:	0.1em solid #9faecd;
+	border-left:	0.1em solid #9faecd;
+	border-bottom:	0.1em solid #273b65;
+	border-right:	0.1em solid #273b65;
+	margin:			0.8em auto;
+	height:			2.5em;
+	font-size:		1em;
+	width:			40%;
+}    
+
+.login_keepconnect
+{
+	margin:			0.8em auto;
+	margin-left:	1.8em;
+	height:			3em;
+	width:			40%;
+	vertical-align: middle;
+	font-size:		1em;
+}
+
+@media screen and (max-width: 640px) 
+{
+body[class="portrait"] .login_keepconnect   {width:100%;display:block;}   
+body[class="portrait"] .login_label   {margin-top:	0; 	margin-bottom:	0; font-size:		1em;}
+body[class="paysage"]  .login_label   {margin-top:	0; 	margin-bottom:	0; font-size:		1em;}
+body[class="portrait"] .login_field   {margin-top:	0; 	margin-bottom:	0; font-size:		1em;}
+body[class="paysage"]  .login_field   {margin-top:	0; 	margin-bottom:	0; font-size:		1em;}
+
+}
+
+#loginform td.title {
+	width: 6em;
+	font-size:		1.2em;
+	margin-top:		1em;
+	margin-bottom:	1em; 
+	font-weight:	bold;
+}
+
+
+#loginform
+{
+	color:					#222222;
+	background-color:		#DDDDDD;
+	padding:				1.6em;
+	overflow:				auto;
+ 	border: 1px solid #333;
+	border-radius: 5px;
+  width:80%;
+  margin:			10em auto;
+
+}
+
+#loginform input[type="text"],
+#loginform input[type="password"]  ,
+#loginform td.input 
+{
+	width:					100%;
+	font-size:				1.4em;
+	font-weight:			normal;
+	padding:				0.4em;
+	margin-bottom:			0.8em;
+}

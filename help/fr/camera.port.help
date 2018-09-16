@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Port</titre>
+    <message>Numéro du port sur lequel répond le serveur Web de la caméra.</message>
+</help>

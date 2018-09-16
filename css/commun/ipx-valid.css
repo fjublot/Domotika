@@ -1,0 +1,181 @@
+.icon-valid
+{
+	top:0.625em;
+	margin:0px;
+	width:1.875em;
+	height:1.875em;
+	border:0px;
+    display:inline-block;
+	margin-left: -13px; 
+	margin-top: 0px; 
+	border-right-width: 10px; 
+	margin-right: 20px;
+}
+/*
+.form-group .icon-valid {
+  display: none;
+  visibility : hidden;
+}
+*/
+.has-error div {
+border-color:red !important;
+}
+
+.form-control-feedback{right:210px;top:7px;}
+
+.icon-valid .success-mark,
+.icon-valid .error-mark,
+.icon-valid .running-mark  {
+  display: none;
+  visibility : hidden;
+  position: relative;
+  float:left;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  text-align: center;
+  right: -10px;
+  /*opacity: 0; */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+  /*background-image: url("images/spritemap.png");*/
+  background-repeat: no-repeat;
+}
+
+
+.icon-valid .error-mark {
+  background-position: -268px -123px;
+  color: #ee162d;
+}
+.icon-valid .success-mark {
+  background-position: -268px -163px;
+  color: #8cc657;
+}
+
+/*
+.icon-valid.error   .error-mark   span,
+.icon-valid.success .success-mark span,
+*/
+.icon-valid.error   .running-mark,
+.icon-valid.success .running-mark { 
+  display: none;
+  visibility : hidden;
+}
+
+.icon-valid.error     .error-mark,
+.icon-valid.success   .success-mark,
+.icon-valid.runnning  .running-mark {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+
+.icon-valid .error-message {
+  display: none;
+  visibility : hidden;
+  absolute: top -5px left -20px;
+  background: rgba(245,245,245,0.8);
+  padding: 8px 10px;
+  color: #800;
+  min-width: 140px;
+  max-width: 500px;
+  z-index: 500;
+}
+.icon-valid:hover.error .error-message {
+  display: block;
+  visibility : visible;
+}
+.icon-valid.error .error-mark {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+
+
+/*
+@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+  .icon-valid .error-mark,
+  .icon-valid .success-mark,
+    background-image: url("images/spritemap@2x.png");
+    -webkit-background-size: 428px 406px;
+    -moz-background-size: 428px 406px;
+    background-size: 428px 406px;
+  }
+}
+*/
+
+
+
+.icon-valid.error   .error-mark   span,
+.icon-valid.success .success-mark span {
+  display: block;
+  visibility : visible;
+}
+
+/*
+.ipx-valid .ipx-error-message {
+  display: block;
+  visibility : visible;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.ipx-valid:hover.ipx-error .ipx-error-message {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+*/
+[data-infobulle] { /* on sélectionne l'attribut info-bulle */
+    position: relative;
+    cursor: help;
+    border-bottom: 1px dotted #aaa;
+}
+[data-infobulle]:hover:after {
+    content: attr(data-infobulle); /* on récupère la valeur de l'attribut data-tip */
+    position: absolute;
+    top: 0.5em; right: -1em;
+    white-space: nowrap; /* no wrapping */
+    padding: 5px 10px;
+    background: none repeat scroll 0 0 #737373;
+    font-family: "Open Sans Condensed",sans-serif;
+    font-size: 1em;
+    color: white;
+	font-size:0.5em;
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	-ms-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+	border-top-left-radius: 0.315em ;
+    border-top-right-radius: 0.315em;
+	border           : 1px solid #044062;
+
+}
+
+.help-block {
+margin-top: 40px !important; 
+margin-left: 490px !important;
+padding-left: 45px !important;
+}
+
+#frmsetup .help-block {
+margin-top: 0px !important; 
+margin-left: 0px !important;
+padding-left: 0px !important;
+}
+
+.form-control-feedback {top:12px !important;}

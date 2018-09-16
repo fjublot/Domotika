@@ -1,0 +1,19 @@
+/* Css test */
+li {
+  border-left: 2 px solid red;
+}
+li:first-child {
+  border-left: none;
+}
+
+/*
+Une autre méthode consiste à utiliser la propriété "content" qui permet de rajouter du contenu avant (:before) ou après (:after) un élément, mais qui n'est malheureusement pas pris en compte par les vieilles version IE (<8)
+
+li:before {
+  content: " | ";
+}
+li:first-child:before {
+  content: normal;
+  content: ""; /* pour Safari 
+}
+*/

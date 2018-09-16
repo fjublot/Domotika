@@ -1,0 +1,146 @@
+	#footer{
+		height:30px;
+		vertical-align:middle;
+		text-align:right;
+		clear:both;
+		padding-right:3px;
+		background-color:#317082;
+		margin-top:2px;
+		width:790px;
+	}
+	#footer form{
+		margin:0px;
+		margin-top:2px;
+	}
+	#dragDropContainer{	/* Main container for this script */
+	/*	width:99%;
+		border:1px solid #317082;
+		background-color:#FFF;
+		-moz-user-select:none;
+	*/}
+  
+	#dragDropContainer ul{	/* General rules for all <ul> */
+	/*	margin-top:0px;
+		margin-left:0px;
+		margin-bottom:0px;
+		padding:2px;
+	*/}
+
+	#dragDropContainer li,#dragContent li,li#indicateDestination{	/* Movable items, i.e. <LI> */
+		float:left;
+	/*	text-align : center; */
+		list-style-type:none;
+	/*	width:100px;
+		/*height:3.5em;
+		background-color:#EEE;
+		border:1px solid #000;
+		/*padding:2px;
+		margin:2px;
+		cursor:pointer;
+		font-size:0.9em;
+    */
+	}
+
+	li#indicateDestination{	/* Box indicating where content will be dropped - i.e. the one you use if you don't use arrow */
+		border:1px solid #317082;
+		background-color:#FFF;
+	}
+
+	/* LEFT COLUMN CSS */
+	div#listOfItems{	/* Left column "Available students" */
+
+		float:left;
+/*		padding-left:10px;
+		padding-right:10px;*/
+
+		/* CSS HACK */
+		width: 100%;
+
+	}
+	#listOfItems ul{	/* Left(Sources) column <ul> */
+		float:left;
+	}
+
+	div#listOfItems div{
+		border:1px solid #999;
+	}
+	div#listOfItems div ul{	/* Left column <ul> */
+/*		margin-left:10px;	/* Space at the left of list - the arrow will be positioned there */
+/*		padding-right:10px;*/
+	}
+	#listOfItems div p{	/* Heading above left column */
+		cursor:pointer;
+		margin:0px;
+		width:100%;
+		float:right;
+		font-weight:bold;
+/*		padding-left:10px;
+		padding-right:10px;*/
+		background-color:#317082;
+		color:#FFF;
+		margin-bottom:5px;
+	}
+	/* END LEFT COLUMN CSS */
+
+	#dragDropContainer .mouseover{	/* Mouse over effect DIV box in right column */
+		background-color:#E2EBED;
+		border:1px solid #317082;
+	}
+
+	/* Start main container CSS */
+
+	div#mainContainer{	/* Right column DIV */
+		float:left;
+/*		padding-left:10px;
+		padding-right:10px;*/
+		width:100%;
+	}
+	#mainContainer div{	/* Parent <div> of small boxes */
+		float:left;
+/*		margin-right:10px;
+		margin-bottom:10px;*/
+		margin-top:0px;
+		border:1px solid #999;
+		width: 100%;
+	}
+
+	#mainContainer div ul{
+/*		margin-left:10px;*/
+	}
+
+	#mainContainer div p{	/* Heading above small boxes */
+	/*	margin:0px;
+		padding:0px;
+		font-weight:bold;
+		background-color:#317082;
+		color:#FFF;
+		margin-bottom:5px;
+		margin-top:5px;
+	*/
+  }
+
+	#mainContainer ul{	/* Small box in right column ,i.e <ul> */
+		border:0px;
+		margin-bottom:0px;
+/*		overflow:hidden; */
+	}
+
+	#dragContent{	/* Drag container */
+		position:absolute;
+		width:150px;
+		height:20px;
+		display:none;
+		margin:0px;
+		padding:0px;
+		z-index:2000;
+	}
+
+	#dragDropIndicator{	/* DIV for the small arrow */
+		position:absolute;
+		width:7px;
+		height:10px;
+		display:none;
+		z-index:1000;
+		margin:0px;
+		padding:0px;
+	}

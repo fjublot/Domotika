@@ -1,0 +1,58 @@
+/* CSS Document */
+#variables
+{
+	float:left;
+	display:inline;
+	width:49.5%;
+	margin:0 auto;
+	margin-bottom:.125em;
+	border:.125em solid #EDEDED;
+	background-color: #C9C9C9;
+	border-radius:.625em;
+}
+#variables .Icone
+{
+	float:left;
+	left:0.625em;
+	margin:.3125em;
+}
+#variables .Texte
+{
+	float:left;
+	white-space: pre-line;
+	text-align:left;
+}
+#variables .Texte p
+{
+	font-size:1em;
+	height:1em;
+}
+
+#variables .Icone
+{
+	width:5em;
+	height:5em;
+}
+
+@media screen and (max-width: 640px)
+{
+	body[class="portrait"] #variables
+	{
+		display:Block;
+		width:49%;
+	}
+	body[class="paysage"]  #variables
+	{
+		display:block;
+		width:49%;
+	}
+	#variables .Icone
+	{
+		width:1.875em;
+		height:1.875em;
+	}
+	#variables .Texte
+	{
+		font-size:0.5em;
+	}	
+}

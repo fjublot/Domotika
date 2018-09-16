@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Scenario</titre>
+    <message>Permet de gérer des enchainements de commandes.</message>
+    <inline_help>http://sourceforge.net/p/multicardipx800/wiki/Les%20scenarios/</inline_help>
+</help>

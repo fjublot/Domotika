@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Nom de variable</titre>
+    <message>Variable permettant des calculs dans les scenarios, de généré des graph, ...</message>
+</help>

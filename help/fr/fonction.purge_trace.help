@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>purge_trace</titre>
+    <prototype>purge_trace($secondes, $type)</prototype>
+    <message>Permet de vider la table de trace des messages antérieurs à $secondes secondes. Si $type est spécifié, la purge se limite à ce type de trace (type possible : acces, carte, cron, ihm, install, purge, xml).</message>
+    <desc_secondes>Nombre de seconde a conserver</desc_secondes>
+    <desc_type>Type de trace a purger : acces, carte, cron, ihm, install, purge, xml, ...</desc_type>
+</help>

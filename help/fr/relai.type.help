@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Type</titre>
+    <message>
+          <ul>Mode de fonctionnement du relais
+            <li>Interrupteur : mode on/off</li>
+            <li>Poussoir : mode impulsionnel</li>
+            <li>All on : Tous les relais à ON</li>
+            <li>All off : Tous les relais à OFF</li>
+          </ul>    
+    </message>
+</help>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>pushto</titre>
+    <prototype>pushto($message, $numero)</prototype>
+    <message>Envoie un message au compte pushto ($numero). Si le numero est vide, envoie à tous les comptes pushto.</message>
+    <desc_numero>Numero du compte push a notifier</desc_numero>
+</help>

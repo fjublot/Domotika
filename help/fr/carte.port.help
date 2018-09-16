@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Port</titre>
+    <message>Numéro du port sur lequel répond le serveur Web de la carte IPX800. Par defaut, le port est 80. 
+    </message>
+</help>

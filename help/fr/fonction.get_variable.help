@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>get_variable</titre>
+    <prototype>get_variable($numero, $when)</prototype>
+    <message>Retour la dernière valeur de la variable $numero à un instant ($when facultatif).</message>
+    <desc_numero>Numero de la variable</desc_numero>
+    <desc_when>Timestamp auquel on souhaite la valeur. Par defaut la valeur la plus récente sera retournée.</desc_when>
+</help>

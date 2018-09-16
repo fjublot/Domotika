@@ -1,0 +1,180 @@
+.popuphelp
+{
+	float                      	: left;
+	position                   	: absolute;
+  width                      	: 30em;
+  max-width                  	: 350px;
+	z-index                    	: 1000;
+  padding                    	: 0px;
+	height                     	: auto;
+	min-height                 	: 5em;
+	margin                     	: 0.2em;
+	border-width               	: 0.1em;
+	border-style               	: solid;
+	border-collapse            	: collapse;
+	overflow                   	: auto; 
+	background-color           	: #D8D8D8;
+	border-radius              	: 0.625em;
+	border-bottom-right-radius 	: 0.625em;
+  text-shadow                	: none;
+  font-size                  	: 0.7em;
+  display                 		:none;
+}
+
+.image_help
+{
+	width  : 1.2em;
+	height : 1.2em;
+	cursor : pointer;
+}
+
+.bandeau_help, .close_help
+{
+	margin     : 0px;
+	height     : 2em;
+	font-size  : 1em;
+	text-align : left;
+	color      : white;
+
+}
+
+.bandeau_help
+{
+  background-color : #5A6893;
+  border-radius    : 0.315em;
+  border           : 1px solid #044062;
+  width            : 100%;
+  white-space      : nowrap;
+  font-weight      : 700;
+  background       : linear-gradient(#5F9CC5, #396B9E) repeat scroll 0 0 #396B9E;
+}
+
+.title_help
+{
+  font-size        : 16px;
+  margin           : auto 0.2em;
+  color            : #FFFFFF;
+  text-shadow      : 0 1px 0 #194B7E;
+}
+
+ul.help
+{
+	list-style: disc outside none;
+}
+
+.close_help, .help_help
+{
+	width:					1.5em;
+	float: right;
+	cursor:  pointer;
+}
+
+.section_help
+{
+	margin:		0.2em;
+	padding:	0;
+	list-style-type:none;
+	background:url(images/help/bg-help.png) repeat-x 0 0;
+	cursor:  pointer;
+}
+
+.support_help
+{
+	cursor:  pointer;
+	float:					right;
+}
+
+.ssection_help 
+{
+	margin:   0.2em 0.2em 0.2em 1.5em;
+    padding:	0;
+	list-style-type:none;
+	background:url(images/help/bg-help.png) repeat-x 0 0;
+	cursor:  pointer;
+}
+
+.section_help .icon,
+.ssection_help .icon
+{
+	top:0.625em;
+	margin:0px;
+	width:1.875em;
+	height:1.875em;
+	border:0px;
+}
+
+.detail_section_help
+{
+	display : none;
+}
+.detail_help
+{
+	margin:		0.3em 1em 0em 0.5em;
+	list-style-type:none;
+	cursor:  pointer;
+}
+
+
+.help_btn {
+    margin-top: -25px;
+}
+
+.detail2_help
+{
+	margin:		0em 1em 0em 1.5em;
+	list-style-type:none;
+	cursor:  pointer;
+}
+
+.detail3_help
+{
+	margin:		0.3em 1em 0em 1em;
+	list-style-type:none;
+	cursor:  pointer;
+}
+
+.descript_detail_help
+{
+	display : none;
+	margin-left:1em;
+}
+.descript2_detail_help
+{
+	display : none;
+	margin-left:2em;
+}
+
+.descript3_detail_help
+{
+	display : none;
+	margin-left:1.6em;
+}
+.descript_ssection_help
+{
+	margin-left:1.6em;
+}
+.detail_ssection_help
+{
+	margin-left:1.5em;
+	display : none;
+}
+
+.helpicon
+{
+display:inline;
+margin-top: -0.5em;}
+
+/*hr.separator {background: #fff url(images/help/borderLine.gif) no-repeat center bottom; margin: 8px auto; height: 1px; border: 0 none;}*/
+
+@media screen and (max-width: 640px) 
+{
+.image_help   {display:none;}
+}
+
+
+.help-btn
+{
+float:right;
+margin-top: -0.7em;
+}
+

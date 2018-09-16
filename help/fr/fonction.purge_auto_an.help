@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>purge_auto_an</titre>
+    <prototype>purge_auto_an()</prototype>
+    <message>Purge les données des entrées analogiques en faisant des moyennes</message>
+</help>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Push autonome</titre>
+    <message>Possible uniquement sur les V3. Dans ce cas, la carte peut envoyer un push à l'application pour chaque activité (relais, entrée...). Ces messages reçus par l'application pourront à leur tour déclencher un push (iphone/ipad), un scénario (fonctionnalité en cours de dev...) et une historisation en base.</message>
+</help>

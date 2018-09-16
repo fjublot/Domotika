@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Informations complémentaires</titre>
+    <message>
+NotifyMyAndroid : Inutile.&lt;br&gt;
+Notrifry : Inutile.&lt;br&gt;
+Livenotifier : Inutile.&lt;br&gt;
+Notifo : Inutile.&lt;br&gt;
+Nabaztag : Inutile.&lt;br&gt;
+Sms Orange :  Api Access Key&lt;br&gt;
+Sms Ovh : Nom de l'éméteur, Numéro de téléphone du destinataire (+33...).&lt;br&gt;
+Mail : Inutile.&lt;br&gt;
+Windowsphone Push : Inutile.&lt;br&gt;
+Prowl : Inutile.&lt;br&gt;
+</message>
+</help>

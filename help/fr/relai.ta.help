@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Ta</titre>
+    <message>
+    Temporisation à l'activation du relais (exprimé en 10ème de seconde)</message>
+</help>

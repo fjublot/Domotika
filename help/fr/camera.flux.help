@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Flux</titre>
+    <message>Url pour lire le flux video. Il est possible d'indiquer des codes de champs afin de recuperer les valeurs saisies dans les autres champs (ex: *user*, *password*).</message>
+</help>

@@ -1,0 +1,57 @@
+/* CSS Document */
+#ans
+{
+	float:right;
+	display:inline;
+	width:49.5%;
+	margin:0 auto;
+	margin-bottom:.125em;
+	border:.125em solid #EDEDED;
+	background-color: #C9C9C9;
+	border-radius:.625em;
+}
+#ans .Icone
+{
+	float:left;
+	left:0.625em;
+	margin:0.3125em;
+}
+#ans .Texte
+{
+	float:left;
+	white-space: pre-line;
+	text-align:left;
+}
+#ans .Texte p
+{
+	font-size:1em;
+	height:1em;
+}
+#ans .Icone
+{
+	width:5em;
+	height:5em;
+}
+
+@media screen and (max-width: 640px)
+{
+	body[class="portrait"] #ans
+	{
+		display:Block;
+		width:49%;
+	}
+	body[class="paysage"]  #ans
+	{
+		display:inline;
+		width:49%;
+	}
+	#ans .Icone
+	{
+		width:1.875em;
+		height:1.875em;
+	}
+	#ans .Texte
+	{
+		font-size:0.5em;
+	}	
+}

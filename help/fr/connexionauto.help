@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Connexion automatique</titre>
+    <message>Afin d'éviter de saisir un nom d'utilisateur et un mot de passe, il est possible de gérer des connexions automatiques pour certaines adresse IP. Pour configurer cette fonctionnalité, choisissez l'option Connexion automatique dans le menu paramétrage.
+</message>
+</help>

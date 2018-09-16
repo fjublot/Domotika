@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<help>
+	<titre>Signature</titre>
+    <message>Signature utilisée pour l\'envoi de message push.&lt;br&gt;
+NotifyMyAndroid : A trouver sur https://www.notifymyandroid.com/account.jsp.&lt;br&gt;
+Notifry : A trouver sur https://notifrier.appspot.com/profile.&lt;br&gt;
+Livenotifier : A trouver sur http://www.livenotifier.net/manage.php.&lt;br&gt;
+Notifo : http://notifo.com/user/settings.&lt;br&gt;
+Nabaztag : Token sur votre compte violet&lt;br&gt;
+Sms Orange :  Api Access Key&lt;br&gt;
+Sms Ovh : Pack Sms Ovh.&lt;br&gt;
+Prowl : Application qui sera affiché.&lt;br&gt;
+</message>
+</help>
