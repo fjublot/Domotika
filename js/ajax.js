@@ -422,8 +422,10 @@
 						$('.relai_'+tagName+'_'+numero).attr("src", Collection.childNodes[j].firstChild.nodeValue);
 						else if ( tagName == "infobulle" )
 						$('.relai_'+tagName+'_'+numero).attr("alt",Collection.childNodes[j].firstChild.nodeValue);
-						else if ( tagName == "nextcommand" )
-						$('.relai_image_'+numero).attr("data-command",Collection.childNodes[j].firstChild.nodeValue);
+						else if ( tagName == "nextcommand" ) {
+						$('.relai_image_'+numero ).attr("data-command",Collection.childNodes[j].firstChild.nodeValue);
+						$('.relai_css_'+numero ).attr("data-command",Collection.childNodes[j].firstChild.nodeValue);
+						}
 						else
 						$('.relai_'+tagName+'_'+numero).html(Collection.childNodes[j].firstChild.nodeValue);
 					//	}

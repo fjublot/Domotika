@@ -20,11 +20,11 @@ class relai extends top
 			$this->cssoff = "off";
 			$this->imageon = "on_v.png";
 			$this->imageoff = "off.png";
-			$this->messageon = "%relai% - %etat%";
-			$this->messageoff = "%relai% - %etat%";
-			$this->msgpushon = "%carte% - %relai% %etat%";
-			$this->msgpushoff = "%carte% - %relai% %etat%";
-			$this->message = "%relai% - %etat%";
+			$this->messageon = "%label% - %etat%";
+			$this->messageoff = "%label% - %etat%";
+			$this->msgpushon = "%carte% - %label% %etat%";
+			$this->msgpushoff = "%carte% - %label% %etat%";
+			$this->message = "%label% - %etat%";
 			$this->push = "off";
 			$this->ctrlcarte = "#N/A";
 			$this->ctrlbtn = "#N/A";
@@ -293,13 +293,14 @@ class relai extends top
 			}
 			$retour  = '<div class="Container animated flipInY ' . $GLOBALS["config"]->csscontainer .' ' .  $classcss.'" data-id="'.$this->config_class.'_'.$this->numero.'">';
 			$retour .= '<div class="Entete '.get_class($this).'_label_'.$this->numero.'" >'.$this->label.'</div>';
-			$dataattr = ' data-class="'.get_class($this).'" data-numero="'.$this->numero.'" data-ctrlbtn="' . $this->ctrlbtn . '" data-command=""';
+			$dataattr = ' data-class="'.get_class($this).'" data-numero="'.$this->numero.'" data-ctrlbtn="' . $this->ctrlbtn . '" data-command="" ';
 			if ($commandactive)
 				$addclass='ajaxapiaction';
 			else
 				$addclass='';
+
 			if ($this->fullcss=="on") {
-				$retour .= '<div class="' . $addclass . ' relaicss demo1"' . $dataattr . '><input type="checkbox"><label></label></div>';
+				$retour .= '<div class="' . $addclass . ' ' . get_class($this) . '_css_' . $this->numero .' relaicss demo1" ' . $dataattr . '><input type="checkbox"><label></label></div>';
 			}
 			else {
 				$retour .= '<img class="' . $addclass . ' Image Pointer ' . get_class($this) . '_image_' . $this->numero . '" alt="relai" src="'.$image.'"'.$dataattr.'/>';
