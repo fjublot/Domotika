@@ -78,7 +78,6 @@ class relai extends top
 		$return .= fn_HtmlSelectField('carteid', 'carte', 'relai.carteid');
 		$return .= fn_HtmlSelectField('no', 'relai_no', 'relai.no');
 		$return .= fn_HtmlSelectField('type', 'type', 'relai.type');
-		//$return .= fn_HtmlInputField('labelipx', $this->labelipx, 'text', 'nom_ipx', 'relai.labelipx', '');
 		$return .= fn_HtmlInputField('xmlid', $this->xmlid, 'text', 'nom_ipx', 'relai.labelipx', '', false, false, false, true);
 		$return .= fn_HtmlInputField('ta', $this->ta, 'text', 'ta', 'relai.ta', '');
 		$return .= fn_HtmlInputField('tb', $this->tb, 'text', 'tb', 'relai.tb', '');
@@ -101,19 +100,16 @@ class relai extends top
 		$return .= fn_HtmlEndFieldset();
 		$return .= fn_HtmlStartFieldset(ucfirst(fn_GetTranslation(__class__).' '.fn_GetTranslation('on')), __class__ .'on', true);
 		$return .= fn_HtmlInputField('messageon', $this->messageon, 'text', 'message_on', 'relai.messageon', '');
-		//return .= fn_HtmlSelectField('imageon', 'image_on', 'relai.imageon',"UpdateImage(this.id);",false,true);
 		$return .= fn_HtmlButtonPicto('imageon', $this->imageon, 'image_on', 'relai.imageon');
 		$return .= fn_HtmlBinarySelectField('csson', $this->csson, 'csson', 'relai.csson',true);
 		$return .= fn_HtmlEndFieldset();
 		$return .= fn_HtmlStartFieldset(ucfirst(fn_GetTranslation(__class__).' '.fn_GetTranslation('off')), __class__ . 'off', true);
 		$return .= fn_HtmlInputField('messageoff', $this->messageoff, 'text', 'message_off', 'relai.messageoff', '');
 		$return .= fn_HtmlInputField('message', $this->message, 'text', 'message', 'relai.message', '');
-		//$return .= fn_HtmlSelectField('imageoff', 'image_off', 'relai.imageoff',"UpdateImage(this.id);",false,true);
 		$return .= fn_HtmlButtonPicto('imageoff', $this->imageoff, 'image_off', 'relai.imageoff');
 		$return .= fn_HtmlBinarySelectField('cssoff', $this->cssoff, 'cssoff', 'relai.cssoff',true);
 		$return .= fn_HtmlEndFieldset();
 		$return .= fn_HtmlStartFieldset(ucfirst(fn_GetTranslation('controle')), 'controle', true);
-		//$return .= fn_HtmlSelectField('ctrlcarte', 'ctrl_carte', 'relai.ctrlcarte','',false,false);
 		$return .= fn_HtmlSelectField('ctrlbtn', 'ctrl_btn', 'relai.ctrlcbtn',"",false,false);
 		$return .= fn_HtmlInputField('ctrlmessageup', $this->ctrlmessageup, 'text', 'ctrl_message_up', 'relai.ctrlmessageup', '');
 		$return .= fn_HtmlInputField('ctrlmessagedn', $this->ctrlmessagedn, 'text', 'ctrl_message_dn', 'relai.ctrlmessagedn', '');

@@ -11,7 +11,7 @@
 			parent::__construct($numero, $info);
 			if ( ! isset($this->label) )
 				$this->label = 'page perso';
-			$this->subclass = array('relai', 'btn', 'cnt', 'an', 'razdevice', 'espdevice', /*'lien',*/ 'scenario', 'variable', 'vartxt', 'sep');
+			$this->subclass = array('relai', 'btn', 'cnt', 'an', 'razdevice', 'espdevice', 'lien', 'scenario', 'variable', 'vartxt', 'sep');
 			return $this;
 		}
 		

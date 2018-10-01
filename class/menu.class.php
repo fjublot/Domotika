@@ -76,9 +76,9 @@
 							</li>
 							<!-- Cameras -->
 							<?php $class='camera';  ?>
-							<li>
+							<li class="vn">
 								<a href="#"><i class="fa <?php echo fn_GetTranslation("fa-".$class);?>"></i> <?php echo fn_GetTranslation($class);?>s <span class="fa fa-chevron-down"></span></a>                                
-								<ul class="nav child_menu" style="display: none">
+								<ul class="nav child_menu" >
 									<?php
 									if (isset($GLOBALS["config"]->{$class. "s"}->{$class})) {
 										foreach($GLOBALS["config"]->{$class. "s"}->{$class} as $info) {
@@ -93,9 +93,9 @@
 							<!-- /Cameras -->
 							<!-- Graphiques -->
 							<?php $class='graphique';  ?>
-							<li>
+							<li class="vn">
 								<a href="#"><i class="fa <?php echo fn_GetTranslation("fa-".$class);?>"></i><?php echo fn_GetTranslation($class);?>s <span class="fa fa-chevron-down"></span></a>
-								<ul class="nav child_menu" style="display: none">
+								<ul class="nav child_menu" >
 									<?php
 									if (isset($GLOBALS["config"]->{$class. "s"}->{$class})) {
 										foreach($GLOBALS["config"]->{$class. "s"}->{$class} as $info) { 
@@ -122,7 +122,7 @@
 						<ul class="nav side-menu">
 							<!-- Config -->
 							<?php
-								foreach (array('user', 'carte', 'relai', 'btn', 'cnt', 'an', 'razdevice', 'espdevice', 'camera', 'scenario', 'cron', 'connexionauto', 'pushto', 'unite', 'graphique', 'variable', 'vartxt', 'page' ) as $classactive) {		
+								foreach (array('user', 'carte', 'relai', 'btn', 'cnt', 'an', 'razdevice', 'espdevice', 'lien', 'camera', 'scenario', 'cron', 'connexionauto', 'pushto', 'unite', 'graphique', 'variable', 'vartxt', 'page' ) as $classactive) {		
 									echo '<!-- '.fn_GetTranslation($classactive).'s -->' . PHP_EOL;
 								?>				
 									<li>					
@@ -147,7 +147,7 @@
 					<div id="menuutilitaires" class="tab-pane">
 						<!--<h3>General</h3>-->
 						<ul class="nav side-menu">
-							<!-- Paramétrage général -->
+							<!-- Paramï¿½trage gï¿½nï¿½ral -->
 									<li>
 										<a href="?app=Mn&amp;page=Setup">
 											<i class="fa <?php echo fn_GetTranslation("fa-config"); ?>"></i>

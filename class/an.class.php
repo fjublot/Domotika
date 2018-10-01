@@ -183,7 +183,10 @@ class an extends top
 			$type = $GLOBALS["config"]->xpath($xpathModele);
 			$xpathModele='//unites/unite[@numero="'.$type[0]->{'unit'}.'"]';
 			$unite = $GLOBALS["config"]->xpath($xpathModele);
-			$unite = addcslashes($unite[0]->{'label'}, "'");
+			if (count($unite)>0)
+				$unite = addcslashes($unite[0]->{'label'}, "'");
+			else
+				$unite = "";
 			$return = '<div class="Container animated flipInY ' . $GLOBALS["config"]->csscontainer .' ' .  $classcss.'" data-id="'.$this->config_class.'_'.$this->numero.'">';
 			$return.=    '<div class="Entete '.get_class($this).'_label_'.$this->numero.'">'.$this->label.'</div>';
 			switch ($this->displayformat) {
